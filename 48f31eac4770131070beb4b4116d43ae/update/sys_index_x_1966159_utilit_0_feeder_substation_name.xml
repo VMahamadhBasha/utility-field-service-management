@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method/>
+        <col_name_string>substation,name</col_name_string>
+        <index_col_name>1fe1352a29cd44c691eb2f4aa4ee0baa,787bbf8c1f234aa8aeaad38d5b02bfcf<sys_dictionary element="substation" name="x_1966159_utilit_0_feeder">1fe1352a29cd44c691eb2f4aa4ee0baa</sys_dictionary>
+            <sys_dictionary element="name" name="x_1966159_utilit_0_feeder">787bbf8c1f234aa8aeaad38d5b02bfcf</sys_dictionary>
+        </index_col_name>
+        <logical_table_name>x_1966159_utilit_0_feeder</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:30:07</sys_created_on>
+        <sys_id>bfc6a8a906544e3fbc129bf00cf0be04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1966159_utilit_0_feeder</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_index_x_1966159_utilit_0_feeder_substation_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:30:07</sys_updated_on>
+        <table/>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

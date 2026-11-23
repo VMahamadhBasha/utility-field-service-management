@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1966159_utilit_0_area</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Area Delete Restriction</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    var sysId = current.getUniqueValue();
+
+    // Check child areas
+    var childGr = new GlideRecord('x_1966159_utilit_0_area');
+    childGr.addQuery('parent', sysId);
+    childGr.setLimit(1);
+    childGr.query();
+    if (childGr.hasNext()) {
+        gs.addErrorMessage('Cannot delete this area. It has child areas referencing it.');
+        current.setAbortAction(true);
+        return;
+    }
+
+    // Check substations
+    var subGr = new GlideRecord('x_1966159_utilit_0_substation');
+    if (subGr.isValid()) {
+        subGr.addQuery('area', sysId);
+        subGr.setLimit(1);
+        subGr.query();
+        if (subGr.hasNext()) {
+            gs.addErrorMessage('Cannot delete this area. It is referenced by substations.');
+            current.setAbortAction(true);
+            return;
+        }
+    }
+
+    // Check transformers
+    var txGr = new GlideRecord('x_1966159_utilit_0_transformer');
+    if (txGr.isValid()) {
+        txGr.addQuery('area', sysId);
+        txGr.setLimit(1);
+        txGr.query();
+        if (txGr.hasNext()) {
+            gs.addErrorMessage('Cannot delete this area. It is referenced by transformers.');
+            current.setAbortAction(true);
+            return;
+        }
+    }
+
+    // Check service connections
+    var scGr = new GlideRecord('x_1966159_utilit_0_svc_conn');
+    if (scGr.isValid()) {
+        scGr.addQuery('area', sysId);
+        scGr.setLimit(1);
+        scGr.query();
+        if (scGr.hasNext()) {
+            gs.addErrorMessage('Cannot delete this area. It is referenced by service connections.');
+            current.setAbortAction(true);
+            return;
+        }
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:30:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c341ad2e07de4d1da27b9a8808502b38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Area Delete Restriction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_script_c341ad2e07de4d1da27b9a8808502b38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:30:07</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c341ad2e07de4d1da27b9a8808502b38"/>
+</record_update>

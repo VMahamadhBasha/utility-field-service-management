@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1966159_utilit_0.meter_fault_detail_user" name="x_1966159_utilit_0.meter_fault_detail_user">8806e6a44734131070beb4b4116d430f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 17:32:46</sys_created_on>
+        <sys_id>c806e6a44734131070beb4b4116d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8806e6a44734131070beb4b4116d430f</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c806e6a44734131070beb4b4116d4312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 17:32:46</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

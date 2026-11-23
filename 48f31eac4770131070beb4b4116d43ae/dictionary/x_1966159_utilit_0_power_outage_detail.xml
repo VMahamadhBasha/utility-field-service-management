@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3755ae244734131070beb4b4116d43ea" label="Power Outage Detail" max_length="40" name="x_1966159_utilit_0_power_outage_detail" type="collection">
+        <element label="Outage End Time" max_length="40" name="outage_end_time" type="glide_date_time"/>
+        <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
+        <element label="Outage Duration (Minutes)" max_length="40" name="outage_duration_minutes" type="integer"/>
+        <element label="Outage Start Time" max_length="40" name="outage_start_time" type="glide_date_time"/>
+        <element label="Affected Consumers" max_length="40" name="affected_consumers" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

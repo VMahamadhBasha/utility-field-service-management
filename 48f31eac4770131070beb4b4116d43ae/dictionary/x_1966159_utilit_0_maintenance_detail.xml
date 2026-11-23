@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7797a2a84734131070beb4b4116d439d" label="Maintenance Detail" max_length="40" name="x_1966159_utilit_0_maintenance_detail" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Maintenance Scope" max_length="255" name="maintenance_scope" type="string_full_utf8"/>
+        <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
+        <element choice="1" label="Maintenance Type" max_length="40" name="maintenance_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corrective" value="corrective"/>
+                <element inactive_on_update="false" label="Emergency" value="emergency"/>
+                <element inactive_on_update="false" label="Inspection" value="inspection"/>
+                <element inactive_on_update="false" label="Preventive" value="preventive"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Scheduled Date" max_length="40" name="scheduled_date" type="glide_date_time"/>
+        <element label="Maintenance Findings" max_length="255" name="maintenance_findings" type="string_full_utf8"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

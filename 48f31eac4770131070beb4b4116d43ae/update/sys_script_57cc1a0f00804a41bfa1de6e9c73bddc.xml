@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1966159_utilit_0_dist_line</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Distribution Line Validation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    var feederId = current.getValue('feeder');
+    var startAreaId = current.getValue('start_area');
+    var endAreaId = current.getValue('end_area');
+
+    // Feeder must be populated
+    if (!feederId) {
+        gs.addErrorMessage('Feeder is required for a Distribution Line.');
+        current.setAbortAction(true);
+        return;
+    }
+
+    // For new records, feeder must be active
+    if (current.isNewRecord()) {
+        var feederGr = new GlideRecord('x_1966159_utilit_0_feeder');
+        if (feederGr.get(feederId)) {
+            if (feederGr.getValue('active') != '1' && feederGr.getValue('active') != 'true') {
+                gs.addErrorMessage('Distribution Line must reference an active Feeder.');
+                current.setAbortAction(true);
+                return;
+            }
+        }
+    }
+
+    // Start Area must be populated
+    if (!startAreaId) {
+        gs.addErrorMessage('Start Area is required for a Distribution Line.');
+        current.setAbortAction(true);
+        return;
+    }
+
+    // End Area must be populated
+    if (!endAreaId) {
+        gs.addErrorMessage('End Area is required for a Distribution Line.');
+        current.setAbortAction(true);
+        return;
+    }
+
+    // Start and End areas must be different
+    if (startAreaId === endAreaId) {
+        gs.addErrorMessage('Start Area and End Area must be different.');
+        current.setAbortAction(true);
+        return;
+    }
+
+    // Both areas must be Village or Street (not City)
+    var startGr = new GlideRecord('x_1966159_utilit_0_area');
+    if (startGr.get(startAreaId)) {
+        var startType = startGr.getValue('area_type');
+        if (startType === 'city') {
+            gs.addErrorMessage('Start Area cannot be a City. Only Village or Street areas are allowed.');
+            current.setAbortAction(true);
+            return;
+        }
+    }
+
+    var endGr = new GlideRecord('x_1966159_utilit_0_area');
+    if (endGr.get(endAreaId)) {
+        var endType = endGr.getValue('area_type');
+        if (endType === 'city') {
+            gs.addErrorMessage('End Area cannot be a City. Only Village or Street areas are allowed.');
+            current.setAbortAction(true);
+            return;
+        }
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57cc1a0f00804a41bfa1de6e9c73bddc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Distribution Line Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_script_57cc1a0f00804a41bfa1de6e9c73bddc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:05</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=57cc1a0f00804a41bfa1de6e9c73bddc"/>
+</record_update>
