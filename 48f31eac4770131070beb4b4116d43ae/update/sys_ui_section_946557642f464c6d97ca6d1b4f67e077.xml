@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Distribution Line Details" section_id="946557642f464c6d97ca6d1b4f67e077" sys_domain="global" table="x_1966159_utilit_0_dist_line" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>26a87232358a4a70b2540c06eb1bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>064db1ce4c3b4c5789e1ac3f01d70de7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>9651b727bd9146ec99ff86af0d9c6a1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>feeder</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>73ca00caa26c4b789fbbaa4b97b94409</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>b4b1f9c8e0f145198540c194407a9a17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>line_type</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>fa0b4fd33048469e89f64d4b4655a4e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>voltage_kv</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>7583ee6770264a88b8abbe6700bcd9a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>91a732d20f8c4608ac70a7136ee99fc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>ff129836c9e14cbbb8fb6658064687fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>9e7613aef00842cf8fd37749bdb959e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_area</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>d88268b4a1c549d7987ac4a8b3b167eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_location</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>9daa5e6074294ecbb69ca44e8144b19c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>7654f2685aa6468ca8f7cf5e6285fb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_area</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>56ce0d40c25d4e7e8356681e4fa1e093</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_location</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>6fdc8026f4af4a2397da37268e6301dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>b403dd1698044c979c7dcd2055d3f6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>e41e99ade8ba4fc9a2d45511c2830487</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>length_km</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>23c962e2a5d445d2a9ed5eb91cd22bad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conductor_type</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>c43e35e042a346c4896a13cf7b0fe636</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase_type</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>6fdd8c05beab48acbf4053b5e1af05d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>370293ba059a407cb42ff7005065947f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>installation_date</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>9d04dafe9edc498c8d8c3a4b2b2b9651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_inspection_date</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>e2857d65006a4772965e918e18781516</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>154f8498f48a49fd8d4beba512e116e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>47ff9f098363425dac46ea828d5b21e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>186725951ced47e88a448fe9a3ff8b02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serves_critical_facility</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>9e1cb3fa513f4052a6ea7030ee5155c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>d6a3fb45425247bbb232bda947ed2299</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>critical_facility_note</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>e87c7ddc8e344b8ca182341488473a61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>a5166d8efbf34198acdb0c27bdad0f64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_id>469c6068192e46a593c0a8a117bc8861</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Distribution Line Details</caption>
+            <header>false</header>
+            <name>x_1966159_utilit_0_dist_line</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>946557642f464c6d97ca6d1b4f67e077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1966159_utilit_0_dist_line</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_ui_section_946557642f464c6d97ca6d1b4f67e077</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
