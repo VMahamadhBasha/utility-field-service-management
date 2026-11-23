@@ -48,7 +48,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-11-23 16:50:59</sys_created_on>
-        <sys_id>2c40c3ce373c4139892f27d3c2fa79aa</sys_id>
         <sys_name>Service Connection</sys_name>
         <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
         <sys_policy/>

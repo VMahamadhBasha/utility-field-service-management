@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_dist_line" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">8e10b9915dc24c41bae77e7f516b9e4d</sys_ui_form>
-            <sys_ui_section display_value="">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
+            <sys_ui_section caption="Distribution Line Details" display_value="Distribution Line Details" name="x_1966159_utilit_0_dist_line" sys_domain="global" view="Default view">946557642f464c6d97ca6d1b4f67e077</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>

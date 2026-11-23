@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="area_type" table="x_1966159_utilit_0_area" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>area_type</element>
+            <name>x_1966159_utilit_0_area</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:30:05</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>area_type</sys_name>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_choice_x_1966159_utilit_0_area_area_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:30:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>City</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_area</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:03</sys_updated_on>
+            <value>city</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Village</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_area</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:03</sys_updated_on>
+            <value>village</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Street</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_area</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 16:51:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 16:51:03</sys_updated_on>
+            <value>street</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

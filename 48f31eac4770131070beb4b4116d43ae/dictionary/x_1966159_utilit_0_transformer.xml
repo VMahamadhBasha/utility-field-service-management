@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="340f2bf65a1e4e2f9e06e8c6fff607dd" label="Transformer" name="x_1966159_utilit_0_transformer" type="collection">
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element default="true" label="Active" name="active" type="boolean"/>
+        <element label="Installation Site" max_length="200" name="installation_site" type="string"/>
+        <element label="Capacity (kVA)" mandatory="true" name="capacity_kva" type="integer"/>
+        <element label="Commissioned On" name="commissioned_on" type="glide_date"/>
+        <element label="Last Serviced On" name="last_serviced_on" type="glide_date"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Feeder" mandatory="true" name="feeder" reference="x_1966159_utilit_0_feeder" reference_cascade_rule="restrict" type="reference"/>
+        <element default="active" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element inactive_on_update="false" label="Offline" sequence="4" value="offline"/>
+                <element inactive_on_update="false" label="Under Repair" sequence="3" value="under_repair"/>
+                <element inactive_on_update="false" label="Faulty" sequence="2" value="faulty"/>
+            </choice>
+        </element>
+        <element label="Serves Critical Facility" name="serves_critical_facility" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
+        <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" reference_qual="area_type=village" type="reference"/>
+        <element label="Longitude" name="longitude" type="decimal"/>
+        <element label="Latitude" name="latitude" type="decimal"/>
+        <element label="Connection Count" name="connection_count" read_only="true" read_only_option="instance_configured" type="integer"/>
+        <element label="Phase Type" name="phase_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Three Phase" sequence="2" value="three_phase"/>
+                <element inactive_on_update="false" label="Single Phase" sequence="1" value="single_phase"/>
+            </choice>
+        </element>
+        <element label="Critical Facility Note" max_length="200" name="critical_facility_note" type="string"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+        <index name="index2">
+            <element name="feeder"/>
+        </index>
+    </element>
+</database>

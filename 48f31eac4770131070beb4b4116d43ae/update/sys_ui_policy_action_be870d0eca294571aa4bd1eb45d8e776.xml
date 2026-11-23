@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-23 16:51:07</sys_updated_on>
         <table>x_1966159_utilit_0_request</table>
-        <ui_policy display_value="">ba83fb7847c549d59b95f902cad54bfa</ui_policy>
+        <ui_policy display_value="Make AI classification fields read-only">ba83fb7847c549d59b95f902cad54bfa</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>

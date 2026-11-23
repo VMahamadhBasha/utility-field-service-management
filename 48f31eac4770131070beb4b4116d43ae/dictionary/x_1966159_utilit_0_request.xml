@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e7c836de02c04dbb99e0e4473c95bf7c" label="Request" name="x_1966159_utilit_0_request" type="collection">
+        <element label="Urgency Signals" max_length="500" name="urgency_signals" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
+        <element label="Request Source" name="request_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Call Center" sequence="3" value="call_center"/>
+                <element inactive_on_update="false" label="Mobile" sequence="2" value="mobile"/>
+                <element inactive_on_update="false" label="Staff" sequence="4" value="staff"/>
+                <element inactive_on_update="false" label="Service Portal" sequence="1" value="service_portal"/>
+            </choice>
+        </element>
+        <element label="Request Subtype" max_length="100" name="request_subtype" type="string"/>
+        <element label="Classification Notes" max_length="500" name="classification_notes" type="string"/>
+        <element label="Is Safety Hazard" name="is_safety_hazard" type="boolean"/>
+        <element label="Contact Number" mandatory="true" max_length="20" name="contact_number" type="string"/>
+        <element label="Service Connection" name="service_connection" reference="x_1966159_utilit_0_svc_conn" reference_qual="active=true" type="reference"/>
+        <element label="Transformer" name="transformer" reference="x_1966159_utilit_0_transformer" reference_qual="active=true" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" label="Reported On" name="reported_on" type="glide_date_time"/>
+        <element label="Classification Confidence" name="classification_confidence" type="decimal"/>
+        <element label="Request Type" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Meter Fault" sequence="2" value="meter_fault"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="4" value="maintenance"/>
+                <element inactive_on_update="false" label="Power Outage" sequence="1" value="power_outage"/>
+                <element inactive_on_update="false" label="New Connection" sequence="3" value="new_connection"/>
+            </choice>
+        </element>
+        <element label="Dispatch Decided On" name="dispatch_decided_on" type="glide_date_time"/>
+        <element label="Dispatch Decided By" name="dispatch_decided_by" reference="sys_user" type="reference"/>
+        <element default="pending" label="Classification Status" name="classification_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Manual Review" sequence="4" value="manual_review"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Failed" sequence="3" value="failed"/>
+            </choice>
+        </element>
+        <element label="Customer Name" mandatory="true" max_length="100" name="customer_name" type="string"/>
+        <element label="Closed On" name="closed_on" type="glide_date_time"/>
+        <element label="Resolved On" name="resolved_on" type="glide_date_time"/>
+        <element label="Short Description" mandatory="true" max_length="160" name="short_description" type="string"/>
+        <element label="Dispatch Rejection Reason" max_length="255" name="dispatch_rejection_reason" type="string"/>
+        <element default="true" label="Active" name="active" type="boolean"/>
+        <element label="Distribution Line" name="distribution_line" reference="x_1966159_utilit_0_dist_line" reference_qual="active=true" type="reference"/>
+        <element label="Hazard Details" max_length="255" name="hazard_details" type="string"/>
+        <element label="Requested By" name="requested_by" reference="sys_user" type="reference"/>
+        <element default="submitted" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="9" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="10" value="cancelled"/>
+                <element inactive_on_update="false" label="Resolved" sequence="8" value="resolved"/>
+                <element inactive_on_update="false" label="Assigned" sequence="6" value="assigned"/>
+                <element inactive_on_update="false" label="Classification Pending" sequence="2" value="classification_pending"/>
+                <element inactive_on_update="false" label="Accepted" sequence="4" value="accepted"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Pending Dispatcher" sequence="3" value="pending_dispatcher"/>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="rejected"/>
+                <element inactive_on_update="false" label="In Progress" sequence="7" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+        <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_qual="active=true" type="reference"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+        <index name="index2">
+            <element name="dispatch_decided_by"/>
+        </index>
+        <index name="index3">
+            <element name="distribution_line"/>
+        </index>
+        <index name="index4">
+            <element name="requested_by"/>
+        </index>
+        <index name="index5">
+            <element name="service_connection"/>
+        </index>
+        <index name="index6">
+            <element name="transformer"/>
+        </index>
+    </element>
+</database>

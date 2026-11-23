@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">0b7ccfb2802c43b3a73f71c5741c131f</sys_ui_section>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">0b7ccfb2802c43b3a73f71c5741c131f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">46e25dc396b849928aed4509d600d806</sys_ui_section>
+            <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">f8db55bcdd934bd4a484f241decc7ad5</sys_ui_section>
+            <sys_ui_section caption="Asset References" display_value="Asset References" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">f8db55bcdd934bd4a484f241decc7ad5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+            <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+            <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>
@@ -80,7 +80,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">3cff003753b04b6eb2b460ddd555f289</sys_ui_section>
+            <sys_ui_section caption="AI Classification" display_value="AI Classification" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3cff003753b04b6eb2b460ddd555f289</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>
@@ -94,7 +94,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section display_value="">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
         </sys_ui_form_section>

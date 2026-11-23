@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="5fb666e44734131070beb4b4116d4353" label="New Connection Detail" max_length="40" name="x_1966159_utilit_0_new_connection_detail" type="collection">
+        <element choice="1" label="Phase Requirement" max_length="40" name="phase_requirement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Three Phase" value="three_phase"/>
+                <element inactive_on_update="false" label="Single Phase" value="single_phase"/>
+            </choice>
+        </element>
+        <element label="Requested Connection Date" max_length="40" name="requested_connection_date" type="glide_date"/>
+        <element choice="1" label="Connection Purpose" max_length="40" name="connection_purpose" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Domestic" value="domestic"/>
+                <element inactive_on_update="false" label="Agricultural" value="agricultural"/>
+                <element inactive_on_update="false" label="Commercial" value="commercial"/>
+                <element inactive_on_update="false" label="Industrial" value="industrial"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Requested Load (kW)" max_length="20" name="requested_load_kw" type="decimal"/>
+        <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

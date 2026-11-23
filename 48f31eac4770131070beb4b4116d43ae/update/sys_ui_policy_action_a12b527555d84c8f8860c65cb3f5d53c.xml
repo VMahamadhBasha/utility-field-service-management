@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>parent</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:30:08</sys_created_on>
+        <sys_id>a12b527555d84c8f8860c65cb3f5d53c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parent</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a12b527555d84c8f8860c65cb3f5d53c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:30:08</sys_updated_on>
+        <table>x_1966159_utilit_0_area</table>
+        <ui_policy display_value="Area Parent Mandatory for Street">2dc702808f8748368d206dec893eb1c1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=a12b527555d84c8f8860c65cb3f5d53c"/>
+</record_update>
