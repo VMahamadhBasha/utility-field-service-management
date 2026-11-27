@@ -12,6 +12,7 @@
         </element>
         <element label="Incharge" name="incharge" reference="sys_user" type="reference"/>
         <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" reference_qual="area_type=city^ORarea_type=village" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Commissioned On" name="commissioned_on" type="glide_date"/>
         <element label="Latitude" name="latitude" type="decimal"/>
         <element label="Capacity (MVA)" name="capacity_mva" type="decimal"/>
@@ -29,6 +30,9 @@
         </index>
         <index name="index2">
             <element name="incharge"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>

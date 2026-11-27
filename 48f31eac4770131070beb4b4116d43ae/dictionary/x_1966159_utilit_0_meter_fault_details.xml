@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="649f6069477c971070beb4b4116d43a8" extends="x_1966159_utilit_0_base_request" label="Meter Fault Details Updated" max_length="40" name="x_1966159_utilit_0_meter_fault_details" type="collection">
+        <element choice="3" default="unknown" label="Meter Condition" max_length="40" name="meter_condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Broken Display" value="broken_display"/>
+                <element inactive_on_update="false" label="Physically Damaged" value="physically_damaged"/>
+                <element inactive_on_update="false" label="Exposed Wiring" value="exposed_wiring"/>
+                <element inactive_on_update="false" label="Water Damaged" value="Water Damaged"/>
+                <element inactive_on_update="false" label="Unknown" value="unknown"/>
+                <element inactive_on_update="false" label="Normal" value="normal"/>
+                <element inactive_on_update="false" label="Loose Connections" value="loose_connections"/>
+                <element inactive_on_update="false" label="Burnt" value="burnt"/>
+            </choice>
+        </element>
+        <element label="Observed Meter Reading" max_length="20" name="observed_meter_reading" type="decimal"/>
+        <element label="Meter Error Code" max_length="255" name="meter_error_code" type="string_full_utf8"/>
+        <element label="Last Working Date" max_length="40" name="last_working_date" type="glide_date"/>
+        <element label="Meter Display Details" max_length="255" name="meter_display_details" type="string_full_utf8"/>
+        <element label="Fault Symptoms" max_length="255" name="fault_symptoms" type="string_full_utf8"/>
+    </element>
+</database>

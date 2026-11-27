@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2260b0e9477c971070beb4b4116d43b0" extends="x_1966159_utilit_0_base_request" label="Power Outage Details Updated" max_length="40" name="x_1966159_utilit_0_power_outage_details" type="collection">
+        <element choice="1" label="Outage Pattern" max_length="40" name="outage_pattern" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unknown" value="unknown"/>
+                <element inactive_on_update="false" label="Continuous" value="continuous"/>
+                <element inactive_on_update="false" label="Occasional" value="Occasional"/>
+                <element inactive_on_update="false" label="At Specific Times" value="specific_times"/>
+                <element inactive_on_update="false" label="Intermittent" value="intermittent"/>
+            </choice>
+        </element>
+        <element choice="3" default="undetermined" label="Impacted Asset Level" max_length="40" name="impacted_asset_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Substation" value="substation"/>
+                <element inactive_on_update="false" label="Multiple Assets" value="multiple_assets"/>
+                <element inactive_on_update="false" label="Undetermined" value="undetermined"/>
+                <element inactive_on_update="false" label="Transformer" value="transformer"/>
+                <element inactive_on_update="false" label="Feeder" value="feeder"/>
+            </choice>
+        </element>
+        <element label="Affected Premises Details" max_length="255" name="affected_premises_details" type="string_full_utf8"/>
+        <element label="Outage Start Time" max_length="40" name="outage_start_time" type="glide_date_time"/>
+        <element label="Observed Voltage" max_length="20" name="observed_voltage" type="decimal"/>
+    </element>
+</database>

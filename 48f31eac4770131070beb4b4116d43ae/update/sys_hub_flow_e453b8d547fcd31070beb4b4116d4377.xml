@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2392000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>30000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_sub_record_in_4_tables</internal_name>
+        <label_cache>[{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.sys_id","label":"1➛Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1966159_utilit_0_request","column_name":"sys_id","usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["request"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["request"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["request"]}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.request_type","label":"1➛Request Record➛Request Type","reference":"","reference_display":"Request Type","type":"choice","base_type":"choice","parent_table_name":"x_1966159_utilit_0_request","column_name":"request_type","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"image":"","reference":false,"rawLabel":"-- None --","missing":false,"value":""},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"Power Outage"}},"sequence":1.0,"label":"Power Outage","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Power Outage","missing":false,"value":"power_outage"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"Meter Fault"}},"sequence":2.0,"label":"Meter Fault","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Fault","missing":false,"value":"meter_fault"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"New Connection"}},"sequence":3.0,"label":"New Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"New Connection","missing":false,"value":"new_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"Maintenance"}},"sequence":4.0,"label":"Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Maintenance","missing":false,"value":"maintenance"}],"usedInstances":{"68bf3f12-95fa-4f39-a332-431126b8d68b":["condition"],"a6cf5682-9c11-4aef-8430-2857c988bc5e":["condition"],"57a54b94-24ff-4bd8-b78b-e2505c5ffd69":["condition"]}},{"name":"subflow.number","label":"Input➛number","type":"string","base_type":"string","choices":[{"order":0.0}],"usedInstances":{"85bd0df8-ff7b-4600-8198-77070c7a80e6":[null]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"e2d04018-0aee-44b2-9b40-607c606f783b"}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.consumer","label":"1➛Request Record➛Consumer","reference":"x_1966159_utilit_0_svc_conn","reference_display":"Service Connection","type":"reference","base_type":"reference","parent_table_name":"x_1966159_utilit_0_request","column_name":"consumer","usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["consumer"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["consumer"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["consumer"]}},{"name":"subflow.request_record","label":"Input➛request record","reference":"x_1966159_utilit_0_request","reference_display":"Request","type":"records","base_type":"records","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"uiTypeLabel":"Records"}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.req_subtype","label":"1➛Request Record➛Req Subtype","reference":"","reference_display":"Req Subtype","type":"choice","base_type":"choice","parent_table_name":"x_1966159_utilit_0_request","column_name":"req_subtype","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"image":"","reference":false,"rawLabel":"-- None --","missing":false,"value":""},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Agricultural Connection"}},"sequence":-1.0,"label":"Agricultural Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Agricultural Connection","missing":false,"value":"agricultural_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Commercial Connection"}},"sequence":-1.0,"label":"Commercial Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Commercial Connection","missing":false,"value":"commercial_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Complete Power Failure"}},"sequence":-1.0,"label":"Complete Power Failure","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Complete Power Failure","missing":false,"value":"complete_power_failure"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Distribution Line Inspection"}},"sequence":-1.0,"label":"Distribution Line Inspection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Distribution Line Inspection","missing":false,"value":"distribution_line_inspection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Distribution Line Repair"}},"sequence":-1.0,"label":"Distribution Line Repair","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Distribution Line Repair","missing":false,"value":"distribution_line_repair"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Domestic Connection"}},"sequence":-1.0,"label":"Domestic Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Domestic Connection","missing":false,"value":"domestic_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Emergency Equipment Maintenance"}},"sequence":-1.0,"label":"Emergency Equipment Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Emergency Equipment Maintenance","missing":false,"value":"emergency_equipment_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Feeder Inspection"}},"sequence":-1.0,"label":"Feeder Inspection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Feeder Inspection","missing":false,"value":"feeder_inspection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Feeder Repair"}},"sequence":-1.0,"label":"Feeder Repair","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Feeder Repair","missing":false,"value":"feeder_repair"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Incorrect Meter Operation"}},"sequence":-1.0,"label":"Incorrect Meter Operation","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Incorrect Meter Operation","missing":false,"value":"incorrect_meter_operation"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Industrial Connection"}},"sequence":-1.0,"label":"Industrial Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Industrial Connection","missing":false,"value":"industrial_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Intermittent Power Supply"}},"sequence":-1.0,"label":"Intermittent Power Supply","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Intermittent Power Supply","missing":false,"value":"intermittent_power_supply"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Low Voltage"}},"sequence":-1.0,"label":"Low Voltage","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Low Voltage","missing":false,"value":"low_voltage"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Damaged"}},"sequence":-1.0,"label":"Meter Damaged","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Damaged","missing":false,"value":"meter_damaged"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Display Failure"}},"sequence":-1.0,"label":"Meter Display Failure","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Display Failure","missing":false,"value":"meter_display_failure"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Not Working"}},"sequence":-1.0,"label":"Meter Not Working","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Not Working","missing":false,"value":"meter_not_working"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Replacement"}},"sequence":-1.0,"label":"Meter Replacement","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Replacement","missing":false,"value":"meter_replacement"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_meter_fault"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_new_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_power_outage"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Partial Power Interruption"}},"sequence":-1.0,"label":"Partial Power Interruption","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Partial Power Interruption","missing":false,"value":"partial_power_interruption"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Scheduled Preventive Maintenance"}},"sequence":-1.0,"label":"Scheduled Preventive Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Scheduled Preventive Maintenance","missing":false,"value":"scheduled_preventive_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Substation Maintenance"}},"sequence":-1.0,"label":"Substation Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Substation Maintenance","missing":false,"value":"substation_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Transformer Maintenance"}},"sequence":-1.0,"label":"Transformer Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Transformer Maintenance","missing":false,"value":"transformer_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Voltage Fluctuation"}},"sequence":-1.0,"label":"Voltage Fluctuation","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Voltage Fluctuation","missing":false,"value":"voltage_fluctuation"}],"usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["req_subtype"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["req_subtype"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["req_subtype"]}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.description","label":"1➛Request Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1966159_utilit_0_request","column_name":"description","usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["description"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["description"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["description"]}}]</label_cache>
+        <master_snapshot>6c7cbc914770571070beb4b4116d43c9</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Sub Record in 4 tables</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:07:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e453b8d547fcd31070beb4b4116d4377</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Create Sub Record in 4 tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_hub_flow_e453b8d547fcd31070beb4b4116d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>9d7cfc914770571070beb4b4116d43bc</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_e453b8d547fcd31070beb4b4116d4377^id=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e453b8d547fcd31070beb4b4116d4377^sys_idNOT IN245330114730571070beb4b4116d43c6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e453b8d547fcd31070beb4b4116d4377</id>
+        <name>Create Sub Record in 4 tables</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:07:10</sys_created_on>
+        <sys_id>245330114730571070beb4b4116d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:07:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=245330114730571070beb4b4116d43c6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e453b8d547fcd31070beb4b4116d4377^sys_idNOT IN05447c514730571070beb4b4116d43a6,6814f4514730571070beb4b4116d43be"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e2d04018-0aee-44b2-9b40-607c606f783b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>number</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</model>
+        <model_id>e453b8d547fcd31070beb4b4116d4377</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e453b8d547fcd31070beb4b4116d4377</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:11:17</sys_created_on>
+        <sys_id>05447c514730571070beb4b4116d43a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:39:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=05447c514730571070beb4b4116d43a6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=records,uiTypeLabel=Records,uiUniqueId=eb93b24a-eae7-4911-a846-da212ce1c93b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1966159_utilit_0_request</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Records">records</internal_type>
+        <label>request record</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</model>
+        <model_id>e453b8d547fcd31070beb4b4116d4377</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e453b8d547fcd31070beb4b4116d4377</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="x_1966159_utilit_0_request">x_1966159_utilit_0_request</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:10:26</sys_created_on>
+        <sys_id>6814f4514730571070beb4b4116d43be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:11:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6814f4514730571070beb4b4116d43be"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e453b8d547fcd31070beb4b4116d4377^sys_idNOT IN63c3fc114730571070beb4b4116d4345,efc3fc114730571070beb4b4116d434c"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5a00ef81-3a67-47b6-ab99-e34a8340cff7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</model>
+        <model_id>e453b8d547fcd31070beb4b4116d4377</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_e453b8d547fcd31070beb4b4116d4377</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:09:17</sys_created_on>
+        <sys_id>63c3fc114730571070beb4b4116d4345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:39:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=63c3fc114730571070beb4b4116d4345"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dcf976d9-6ed1-4ae8-9117-1a217a83b987</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output1</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</model>
+        <model_id>e453b8d547fcd31070beb4b4116d4377</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_e453b8d547fcd31070beb4b4116d4377</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:09:17</sys_created_on>
+        <sys_id>efc3fc114730571070beb4b4116d434c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:39:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=efc3fc114730571070beb4b4116d434c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e453b8d547fcd31070beb4b4116d4377^sys_idNOT IN491a785d4730571070beb4b4116d43c1,7b7b3c114770571070beb4b4116d437a,95b47c914730571070beb4b4116d4362,cc54fc514730571070beb4b4116d4302"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>68bf3f12-95fa-4f39-a332-431126b8d68b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:36:41</sys_created_on>
+        <sys_id>491a785d4730571070beb4b4116d43c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:48:24</sys_updated_on>
+        <ui_id>baeba89e-5a94-4e14-9997-54e87a6ae548</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/iMBD9K8hniBxSQuC2asWpH1Jbcel2LSeeFEvOR22HwiL++46dBFC31W6rvVRaTpnxzPO8xxs/7IgUZE5iAXQ2C+MsCqNoTOk4OQvTOErDsYg4hCkZkpIXgJVrrhowGPsPTGh4ZqZJ7baG7w2lkdjtkkkqqMiTUZ5P09FZTOkoCWfJaDqlU5pNeUIhDm4hq7QITtr3+x8YIbr9DJDZGiYFYmRVaZoC9GdA+l6EEWAyLWsrq/IzSCft+z3KJaSpFd8u/6v2EdWylVRCQ0nmD49DUnONJrSgyXz36uhvXax4CgpLFxKUMG/Y2kmKsYUC/y4LrLV5m7/smu+7w8GyO8TR3VDhkMDGQikAp8m5MjAkBS8Ft5XekrnVDSY0cHFTqu2hYiVLi6AIswJVt18F3xj5EwcJUS73c305IN0M2opDyDpnten8glt+hzdlttFdabaqZIbkvFACct4oe36aawtuvOxti+Wp6rsr1RTldSsTOQD0RsZMY3AIqB1vx6Slmd+tqpfbfsiFLL1CHWVVZVwdIm6tlmlj3Tg7AgoKxGEFr2tZPrFaV2vpm3GUInhSGAS5ql7wTiOfyoBnbu4AVebBAvMXPr3kWjoSVwiDzfshQaufK27MkQpqyJ4bN0lLrKPAvApeAubt4Zq9Lb/hVWvoBt8P+8czBDp513ZwdnTZCebxAd2wcBbH4WTGGiuVtIwyb3LmdUaWlkv1+wty5WoGC1czuOhrPrgvfx6835d7b4i3ifQr8zp3edo7uG4PulWh/35Vkq+0JB2hL78l7+3G4y8LfvG0WggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=491a785d4730571070beb4b4116d43c1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>57a54b94-24ff-4bd8-b78b-e2505c5ffd69</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:42:53</sys_created_on>
+        <sys_id>7b7b3c114770571070beb4b4116d437a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:48:24</sys_updated_on>
+        <ui_id>8d6fb6ef-7984-4263-b367-5bfec4865f69</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTU8bMRD9K5HPycpLYLPJrQJxolAB4kKpNbueTSx5P/AHkEb57x3vR4goqAX1gtScdsYzz++9zPh2w5RkC5ZI5PN5nOTTeDo94PwgPYyzZJrFB3IKGGdszCookSofQHu0FLcflDB4Twn33XM+lZtNepRJLot0UhSzbHKYcD5J43k6mc34jOczSDkm0SXmtZGRXVuh5Hb7gzCE9ZlbN/gRnL12AsvryvoSzUeQhl6CkWhzoxqn6uojSHvt2y3ZJZVtNKxv/rv2HtfyldLSYMUWt3dj1oChIXRo2GLz4uhvp1hDhppKTxVqaV8Z62AHxQ5L+rscim7Mu/xZ33zdH45u+kOiHkjFY4ZPDiuJxKYAbXHMSqgkuNqs2cIZTwmDIC8qvd5VrFTlCJRgVqib7quEJ6t+EpGY7Aq/0Fcgyc2xq9iFop+sLl2cgIMruil33vSl+apWOYlrjZJYgNfueD/XFVy0tnctDjI9dNfal9V5ZxPbAQyDTBlviQQ2QXdQ0sksrlb14+VA8lRVrUO9ZF3noHcROGdU5l2gs2GosSQcUULTqGopGlM/qLaZqJTRUlMQFbp+pDutWlYR5IF3RC5DdEr5kzZ9A0YFEV8Jhpq3Y0Z7c6zB2mcp5KG494FJJ6yXIFoXWgtEOx6huR3LL3TVA/bEt+Ph8YyRH705dnj4PGV7mM8P6JOI50kSH82Fd0orJ7ho6kc0ovYOlsFaB0r//oR8C0Wji7ZodDIUvXNj/kx92JjrdiRelzIszcvc2X7v6Lw76JeF//tlST/TmvSCPv2evLUdd78Alk6nm1wIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7b7b3c114770571070beb4b4116d437a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>a6cf5682-9c11-4aef-8430-2857c988bc5e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:13:13</sys_created_on>
+        <sys_id>95b47c914730571070beb4b4116d4362</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:48:24</sys_updated_on>
+        <ui_id>82f4f798-6f9d-4aa9-aad1-169b706f0e87</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/iMBD9K8jnEDlAQ+C2AnHqtlJb9dJtLSeeFEuOk9pOKYvy33fyBbTbandRL5WWUzyeefPmMc93OyIFmZNQAJ3NgjAZB+PxiNJRNAnicBwHIzHmEMTEI5pngJnPXJVg8dx8YMDAEwbcj5LSsdjtorNYUJFGwzSdxsNJSOkwCmbRcDqlU5pMeUQh9K8gyY3w7dYyKarqATGYLWO3LeAUnKPyFqwmBIIludaQOJlrJrjroB8wassMzCmd+lpsI8AmRhY1+ilIR+VVhXIKaQvFt7f/Vf1MVZO1VMKAJvO7e48U3OASOzBkvntz9bcuUDwGhakrCUrYd2xRy4VnBxn+nQ5Ya5M2ft4V33SXg9vuEqnXpAKPwIsDLQDZpFxZ8EjGNaqcmy2ZO1NiwAAXl1pt9xlrqR2CIswaVNF+ZfzFyp9IJEC56l9dlwKOm0CbsT+ybvPacLrkjl9jp8SVpktN1rlMcLhGKAEpL5VbHMfahMtG9rbE8Vj11bkqM33RykT2AP2iY6S0SAKKeu56knbM9Hqdb656kiupG4W6kVWecLU/ceeMjEtX09kRUJAhDst4UUj9yAqTP8umGKlk/qPCg5+qfIM9rXzUPm922UeVub/C+LIJ33Ij6yG+IwwWVx5BXy0Ut/YwCmrInsqaSTtYNwJrVGgkYM161MXNWn7DVs/QEa+8/vENgJ59uHYwOWzZEebhAX5hwSwMg7MZK51U0jHKNGxe2RQcl+r3R+YCNoPFPm2w7NP+0TV/pt+75qZZi/fH6Y3zNnZ+XDu4aC86w9DPN0z0lazSDfTlvfKRQ+5/ASci9XOgCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=95b47c914730571070beb4b4116d4362"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:11:30</sys_created_on>
+        <sys_id>cc54fc514730571070beb4b4116d4302</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:48:24</sys_updated_on>
+        <ui_id>85bd0df8-ff7b-4600-8198-77070c7a80e6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX32/iOBD+V6I8UzYhQKBvq1ZIK+1upW2vL7sry4mdYp2xs7bTliL+9xsnDrCQAtnCqad7Ao/Hnm9+fOPJ94XPiH/pD0gwzsbjwSgOgigKguEwSnGYJNEwTYIkCf2OL/CMgqaWyiAzzymIHjEvVjKsUxARpnOO5/duB3tGei8gT6eME0WFf/n9Z8fPsYLbDFX+5WJr61g4HCeUg+ot2PbuKjwNEMufS7AhWVqvP7ujV7VQKmKhRB2fPhsqCAUMGeaadvwZFgQbqeYriaKY3Ai+FkyZMHAb3DOlPK/+zfCzZi9gOerZExkF/1Ja7a2WyAWrEmfX2OBbo4rUFMqpVrA1RGaxcngV0oboO0eCZWet/2L18bY+oZsHwiVEntAMF9xc/ZnNsK3NnrVZOXiTGyYh/35kM4QTXrsveTETX6us+iuE9w1lV+1cv1J9hYZg09ym1ubKJS67ncqnb3U2JkyUuNwmlynmqxU2RrGkMDYuCz8jKGOUE8QEZ8JagrTZQqKczsACmuE8Z+IB5Uo+svJW8GXWfeCw6GZcPtlYsAfRxan1vAslhrsTkF+X4nusmI3CF7gGDneswSkcdfaQThXLDXpi5IGatfVai0jzhPnfTfuu4lCdqNI9f9nx9Vxfcaz1OthQpuhXYWNQhd5FD5WJKo+UKD6CB4/UBcrWQEngcC+BMdkia5XojXrZ7SSte8gREOoo3NiK9JL5a6hcE6lyXmr83kgmdsP7Wm3U5X2GZjIKTtNMmsi+S8ZWXNwlmS26N3DsjFRq4m57ClSxOcSD8d6HbLyuOJahGcST5ZwiRVOoIo2woiiThSCocm6DIDbYGVPaOOVdwnyjkHrhSaguz0ypV2p7K+2WZDrsR02mT5lXO+KsaQ8c8UpHvJUj7dxu84z3z8C8/omYt34iJ5jxMi/a0HwjsVQpqV55yg+kdE9tHPnOHwkqPCmotw8CTWRoHAgOYD3xmHCeFnb6xzqlOOn38DCOwjAIwoDEwSiOw9EwyYY47mdrtiKkRQrzBdycQanA9agujTrPwW4nqoaMti3nCFR1CV5L8aMIgl5sPAsL8uvVsA4Dd60lkZJTLLZ6yx28DR8mDr+r18E77i//ysv+Vl4U7G475pWoMernGgQK9pdgvwr6yRbbiAa9UUjSi1Ecxhf9jAwvxgQPLvA4GcQRoWk/O8eYTAZ7Z9SN8SCVgjDrl97gmihmCVW29COyWOgisWHoVtLlcpeIB/XbMfQI9DVDrzbhN7lUP/Dbss9NF9TP0FmIGPyXqPguh+wzzdJk7wyK++vKqq5b8+QZhePhMByMUWEYZwYFMCgA9bVpGpvrjZZkOIyuJsOdg7eF1lGgXDZ9ZZbHtr4yg//7V+b7nNEAEONQK6hKppaFKkP5iFJe6HJDYaHd583p3pWf/wAP5gJA0BUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cc54fc514730571070beb4b4116d4302"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e453b8d547fcd31070beb4b4116d4377^sys_idNOT IN16d330514730571070beb4b4116d4372,39e9f05d4730571070beb4b4116d43ad,5f4b3cd94730571070beb4b4116d43ec"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1ed330514730571070beb4b4116d4370</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:09:28</sys_created_on>
+        <sys_id>16d330514730571070beb4b4116d4372</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:02</sys_updated_on>
+        <ui_id>a6cf5682-9c11-4aef-8430-2857c988bc5e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0bPiZHz6eatbBQGWwtt6ctWjCxdJ2Ky5Epy0izkv+/KH0loMsbK9raXYB35nnvO/XB2xNS+qr17NNfOyaUmi6/PAyJ1wPB5RzQrgSwIN1pIL40mA7Jmqg7YbpdOc0FFkQ6LYp4PJzNKh2lylQ7nczqnfM5SCrP4HrixIrbwUoPzmd9WsN9/qykdCw2bDJk18I5aSFcptn36dxn4SiphoTNaMYv+PFiy2L25CiyZYjkoFPLgrdRLDJcCT1dsWkwTOuXj0Ww8onSUTpJ8Ns6TkRgzmMzwvT7ww0ndLpQyJEHI9fRoI2gZ0QGBVw9aAOYrmHIwICXTgnljt2ThbY2ABSbutNoe3lhJ7ZENeVagqvapZK9O/oDASWmIKQAtcmhvD8esq3wL85WRHO6qRmWDeJarLoYbVZf6tjUTegYFq5Xve4ZI7ZAPqiA/COrUFQ8rs7nvE95I3VjtLpXhTB1OzGNB8tqDC30BBSUSZSWrKixTVlmzlk0wainjpcJDXCizwaRhhmPWNDvGarH4BvGPDfzErAwuviANBmMvXea4lVXvrUlO9k1Vspc66Gn9dU6ythj4Qht2jWnW0IneD853JWuA48LIIvIriLo5jULzI+midlLb3+gWNtFxYKPznXgfyd8Y+4KyIrniyeWxZ+NLYx99bpDz4e9r84sNSH6zAR3yhyswnf7fgNMNCDJz5iTPmi8+0oUvy7tX4DmMepvCtdMkgEuHSh4D9qn/VwkXW+y/5KfQxtjvwcMR2/8EbaDjrp8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">95ba30dd4730571070beb4b4116d437d</block>
+        <comment/>
+        <connected_to>a6cf5682-9c11-4aef-8430-2857c988bc5e</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:35:55</sys_created_on>
+        <sys_id>39e9f05d4730571070beb4b4116d43ad</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:02</sys_updated_on>
+        <ui_id>68bf3f12-95fa-4f39-a332-431126b8d68b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VUWvbMBD+K8bPiZGdJnHzVjYKg3WFtvRlK0aWzrWYLLmSnDQL+e87WXYauoaxMva0F2N957v77vR9eBfrzrWds3f6wlrxqOLV14dJLJTH8H0XK9pAvIqZVlw4oVXRA5N4TWXnA6KKXA2RgacOrIvctoVI2OhbR8iMh2d0BQ5MVNFOOszkwraSbu/fXYDVQnIDA9eWGmSE8Xi1exXytQpJS5DY59YZoR4xXXA8VYRW6TlL2SxbzDJCsvwsLRezMs34jALN8Lsx8cM4evS5RyYnd+L7IW7HTtpwTyslkxieHSgO2Lqi0sIkbqji1GmzPSAGKL9W8gWohXJYDgvVINvw1tBnK35gl2w+9ykV4LQMQvBwLIYdB5jVWjC4bj3VgDhayiGHadk16kuYyN8O9GsebweRzmI9aD19z2cgV93WenMzNrwUqh91CErNqDycqMOFlJ0D668IJDRYqGho2+KaitboteiTkUuTPEo8JJXUG2zqFZlQ5oknuC2aXCL+sYfvqRF+iissg8mBZkmtYEWvXiznDI6w79dSPHWeUBhwGKUI28APLDOidRfYZw0D6/3kV+kfqX63y+clJ7zKp1W1LKdnC0KmeXqeT5dLsiRsSXMCi+QGGGogGbRdeH3s90HTvWSLE5742+X/gWPStxzzhldO2yT7jU38df6xSwgh/21ybBNhiyD3Yba++btd8uAtETrYoCAOTFgkcuexT+N/xAe2KAXBjqGNNt/9CC/Y/icKnIOYkQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">934b3cd94730571070beb4b4116d43ec</block>
+        <comment/>
+        <connected_to>a6cf5682-9c11-4aef-8430-2857c988bc5e</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:42:02</sys_created_on>
+        <sys_id>5f4b3cd94730571070beb4b4116d43ec</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:02</sys_updated_on>
+        <ui_id>57a54b94-24ff-4bd8-b78b-e2505c5ffd69</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VUW+bMBD+K8jPCTKkSWjeqk2VJm3r1FZ9WStk7CNYM5jaJmkW5b/vjCGtlk7TKm1Pe0H4s++77+4+w57ozrWds7f6wlq5bsjq68OEyMZj+L4nDauBrAjXjZBO6oZMyIapzmP7fTYvBBVlNi3LZTE9W1A6zZLzbLpc0iXlS5ZRWMTXwLURsYHHDqzL3a6Fw+G+o3QmWr0Fk6MEtgYkFtK2iu3u/hY/r6QSBoYiW2awNgeGrPY/bXmOXLECFMq4cUY2awyXAlclZWVyzhM+SxezlNI0O0uKxaxIUjFjwBI8Nwa+e9GzV9rokyBkR3oswmtJ6YTAk4NGAOYrmbIwITVrBHPa7MjKmQ4BA0xcNWp3PFHJxiEb8lSg2vBWsycrv4PnpNTHlIAlcgi7x2U+9D3AvNKSw1Xbq+wRxwo1xHCturr5HIrxE4OSdcqNE0Oks8gHrZfvBQ3qyptKb6/HhJey6UsdNpXmTB1XzGFDis6B9XMBBTUS5TVrW2xT3hq9kX0waqnjtcJFXCq9xaTevzHjXniM3WLxJeLve/iOGemr+IQ0GIyztLnlRrZjbX1ycui7kj92Xk+ob6gkD83AAyHsAtNsYBB9mJzek7wHni+LLCNXQTS4NPLDj6SNgk/DM/ri7RoFu0an9+EtFP/A8ulrlo8+9sip8ce+/ML9yW/cPyB/aP/5/L/7X7rfyyyYlTzvv/RI578qb7b/g7d5SGGDmwRwaVHJrcc+jH8Tv7HD+Uv+Etpq883X8IwdfgBTld81lwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_record</element>
+        <help/>
+        <hint/>
+        <label>request record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e453b8d547fcd31070beb4b4116d4377</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:10:26</sys_created_on>
+        <sys_id>6414f4514730571070beb4b4116d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:10:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>number</element>
+        <help/>
+        <hint/>
+        <label>number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e453b8d547fcd31070beb4b4116d4377</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:11:17</sys_created_on>
+        <sys_id>8d447c514730571070beb4b4116d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:11:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output1</element>
+        <help/>
+        <hint/>
+        <label>Output1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_e453b8d547fcd31070beb4b4116d4377</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:09:17</sys_created_on>
+        <sys_id>2fc3fc114730571070beb4b4116d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:09:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_e453b8d547fcd31070beb4b4116d4377</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:09:17</sys_created_on>
+        <sys_id>6fc3fc114730571070beb4b4116d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:09:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>30000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_sub_record_in_4_tables</internal_name>
+        <label_cache>[{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.sys_id","label":"1➛Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1966159_utilit_0_request","column_name":"sys_id","usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["request"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["request"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["request"]}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.request_type","label":"1➛Request Record➛Request Type","reference":"","reference_display":"Request Type","type":"choice","base_type":"choice","parent_table_name":"x_1966159_utilit_0_request","column_name":"request_type","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"image":"","reference":false,"rawLabel":"-- None --","missing":false,"value":""},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"Power Outage"}},"sequence":1.0,"label":"Power Outage","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Power Outage","missing":false,"value":"power_outage"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"Meter Fault"}},"sequence":2.0,"label":"Meter Fault","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Fault","missing":false,"value":"meter_fault"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"New Connection"}},"sequence":3.0,"label":"New Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"New Connection","missing":false,"value":"new_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":[""],"dependent_values_map":{"":"Maintenance"}},"sequence":4.0,"label":"Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Maintenance","missing":false,"value":"maintenance"}],"usedInstances":{"68bf3f12-95fa-4f39-a332-431126b8d68b":["condition"],"a6cf5682-9c11-4aef-8430-2857c988bc5e":["condition"],"57a54b94-24ff-4bd8-b78b-e2505c5ffd69":["condition"]}},{"name":"subflow.number","label":"Input➛number","type":"string","base_type":"string","choices":[{"order":0.0}],"usedInstances":{"85bd0df8-ff7b-4600-8198-77070c7a80e6":[null]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"e2d04018-0aee-44b2-9b40-607c606f783b"}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.consumer","label":"1➛Request Record➛Consumer","reference":"x_1966159_utilit_0_svc_conn","reference_display":"Service Connection","type":"reference","base_type":"reference","parent_table_name":"x_1966159_utilit_0_request","column_name":"consumer","usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["consumer"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["consumer"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["consumer"]}},{"name":"subflow.request_record","label":"Input➛request record","reference":"x_1966159_utilit_0_request","reference_display":"Request","type":"records","base_type":"records","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"uiTypeLabel":"Records"}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.req_subtype","label":"1➛Request Record➛Req Subtype","reference":"","reference_display":"Req Subtype","type":"choice","base_type":"choice","parent_table_name":"x_1966159_utilit_0_request","column_name":"req_subtype","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"image":"","reference":false,"rawLabel":"-- None --","missing":false,"value":""},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Agricultural Connection"}},"sequence":-1.0,"label":"Agricultural Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Agricultural Connection","missing":false,"value":"agricultural_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Commercial Connection"}},"sequence":-1.0,"label":"Commercial Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Commercial Connection","missing":false,"value":"commercial_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Complete Power Failure"}},"sequence":-1.0,"label":"Complete Power Failure","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Complete Power Failure","missing":false,"value":"complete_power_failure"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Distribution Line Inspection"}},"sequence":-1.0,"label":"Distribution Line Inspection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Distribution Line Inspection","missing":false,"value":"distribution_line_inspection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Distribution Line Repair"}},"sequence":-1.0,"label":"Distribution Line Repair","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Distribution Line Repair","missing":false,"value":"distribution_line_repair"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Domestic Connection"}},"sequence":-1.0,"label":"Domestic Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Domestic Connection","missing":false,"value":"domestic_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Emergency Equipment Maintenance"}},"sequence":-1.0,"label":"Emergency Equipment Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Emergency Equipment Maintenance","missing":false,"value":"emergency_equipment_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Feeder Inspection"}},"sequence":-1.0,"label":"Feeder Inspection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Feeder Inspection","missing":false,"value":"feeder_inspection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Feeder Repair"}},"sequence":-1.0,"label":"Feeder Repair","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Feeder Repair","missing":false,"value":"feeder_repair"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Incorrect Meter Operation"}},"sequence":-1.0,"label":"Incorrect Meter Operation","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Incorrect Meter Operation","missing":false,"value":"incorrect_meter_operation"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Industrial Connection"}},"sequence":-1.0,"label":"Industrial Connection","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Industrial Connection","missing":false,"value":"industrial_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Intermittent Power Supply"}},"sequence":-1.0,"label":"Intermittent Power Supply","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Intermittent Power Supply","missing":false,"value":"intermittent_power_supply"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Low Voltage"}},"sequence":-1.0,"label":"Low Voltage","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Low Voltage","missing":false,"value":"low_voltage"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Damaged"}},"sequence":-1.0,"label":"Meter Damaged","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Damaged","missing":false,"value":"meter_damaged"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Display Failure"}},"sequence":-1.0,"label":"Meter Display Failure","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Display Failure","missing":false,"value":"meter_display_failure"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Not Working"}},"sequence":-1.0,"label":"Meter Not Working","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Not Working","missing":false,"value":"meter_not_working"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Meter Replacement"}},"sequence":-1.0,"label":"Meter Replacement","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Meter Replacement","missing":false,"value":"meter_replacement"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["meter_fault"],"dependent_values_map":{"meter_fault":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_meter_fault"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["new_connection"],"dependent_values_map":{"new_connection":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_new_connection"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Other"}},"sequence":-1.0,"label":"Other","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Other","missing":false,"value":"other_power_outage"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Partial Power Interruption"}},"sequence":-1.0,"label":"Partial Power Interruption","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Partial Power Interruption","missing":false,"value":"partial_power_interruption"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Scheduled Preventive Maintenance"}},"sequence":-1.0,"label":"Scheduled Preventive Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Scheduled Preventive Maintenance","missing":false,"value":"scheduled_preventive_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Substation Maintenance"}},"sequence":-1.0,"label":"Substation Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Substation Maintenance","missing":false,"value":"substation_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["maintenance"],"dependent_values_map":{"maintenance":"Transformer Maintenance"}},"sequence":-1.0,"label":"Transformer Maintenance","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Transformer Maintenance","missing":false,"value":"transformer_maintenance"},{"parameters":{"name":"x_1966159_utilit_0_request","dependent_values":["power_outage"],"dependent_values_map":{"power_outage":"Voltage Fluctuation"}},"sequence":-1.0,"label":"Voltage Fluctuation","selected":false,"used":false,"image":"","reference":false,"rawLabel":"Voltage Fluctuation","missing":false,"value":"voltage_fluctuation"}],"usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["req_subtype"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["req_subtype"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["req_subtype"]}},{"name":"85bd0df8-ff7b-4600-8198-77070c7a80e6.Record.description","label":"1➛Request Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1966159_utilit_0_request","column_name":"description","usedInstances":{"baeba89e-5a94-4e14-9997-54e87a6ae548":["description"],"82f4f798-6f9d-4aa9-aad1-169b706f0e87":["description"],"8d6fb6ef-7984-4263-b367-5bfec4865f69":["description"]}}]</label_cache>
+        <master>true</master>
+        <name>Create Sub Record in 4 tables</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c7cbc914770571070beb4b4116d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:02</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6c7cbc914770571070beb4b4116d43c9^id=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6c7cbc914770571070beb4b4116d43c9^sys_idNOT INac7cbc914770571070beb4b4116d43ca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6c7cbc914770571070beb4b4116d43c9</id>
+        <name>Create Sub Record in 4 tables</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:02</sys_created_on>
+        <sys_id>ac7cbc914770571070beb4b4116d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ac7cbc914770571070beb4b4116d43ca"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6c7cbc914770571070beb4b4116d43c9^sys_idNOT IN247cbc914770571070beb4b4116d43cc,787cbc914770571070beb4b4116d43f1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=records,uiTypeLabel=Records,uiUniqueId=eb93b24a-eae7-4911-a846-da212ce1c93b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1966159_utilit_0_request</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Records">records</internal_type>
+        <label>request record</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</model>
+        <model_id>6c7cbc914770571070beb4b4116d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_6c7cbc914770571070beb4b4116d43c9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="x_1966159_utilit_0_request">x_1966159_utilit_0_request</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:02</sys_created_on>
+        <sys_id>247cbc914770571070beb4b4116d43cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=247cbc914770571070beb4b4116d43cc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e2d04018-0aee-44b2-9b40-607c606f783b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>number</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</model>
+        <model_id>6c7cbc914770571070beb4b4116d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_6c7cbc914770571070beb4b4116d43c9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>787cbc914770571070beb4b4116d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=787cbc914770571070beb4b4116d43f1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6c7cbc914770571070beb4b4116d43c9^sys_idNOT IN387cfc914770571070beb4b4116d430c,747cfc914770571070beb4b4116d4300"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dcf976d9-6ed1-4ae8-9117-1a217a83b987</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output1</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</model>
+        <model_id>6c7cbc914770571070beb4b4116d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_6c7cbc914770571070beb4b4116d43c9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>387cfc914770571070beb4b4116d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=387cfc914770571070beb4b4116d430c"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5a00ef81-3a67-47b6-ab99-e34a8340cff7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</model>
+        <model_id>6c7cbc914770571070beb4b4116d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_6c7cbc914770571070beb4b4116d43c9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>747cfc914770571070beb4b4116d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=747cfc914770571070beb4b4116d4300"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6c7cbc914770571070beb4b4116d43c9^sys_idNOT IN307cfc914770571070beb4b4116d4325,347cfc914770571070beb4b4116d4326,3c7cfc914770571070beb4b4116d4323,b87cfc914770571070beb4b4116d4325"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>a6cf5682-9c11-4aef-8430-2857c988bc5e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>307cfc914770571070beb4b4116d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>82f4f798-6f9d-4aa9-aad1-169b706f0e87</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/iMBD9K8jnEDlAQ+C2AnHqtlJb9dJtLSeeFEuOk9pOKYvy33fyBbTbandRL5WWUzyeefPmMc93OyIFmZNQAJ3NgjAZB+PxiNJRNAnicBwHIzHmEMTEI5pngJnPXJVg8dx8YMDAEwbcj5LSsdjtorNYUJFGwzSdxsNJSOkwCmbRcDqlU5pMeUQh9K8gyY3w7dYyKarqATGYLWO3LeAUnKPyFqwmBIIludaQOJlrJrjroB8wassMzCmd+lpsI8AmRhY1+ilIR+VVhXIKaQvFt7f/Vf1MVZO1VMKAJvO7e48U3OASOzBkvntz9bcuUDwGhakrCUrYd2xRy4VnBxn+nQ5Ya5M2ft4V33SXg9vuEqnXpAKPwIsDLQDZpFxZ8EjGNaqcmy2ZO1NiwAAXl1pt9xlrqR2CIswaVNF+ZfzFyp9IJEC56l9dlwKOm0CbsT+ybvPacLrkjl9jp8SVpktN1rlMcLhGKAEpL5VbHMfahMtG9rbE8Vj11bkqM33RykT2AP2iY6S0SAKKeu56knbM9Hqdb656kiupG4W6kVWecLU/ceeMjEtX09kRUJAhDst4UUj9yAqTP8umGKlk/qPCg5+qfIM9rXzUPm922UeVub/C+LIJ33Ij6yG+IwwWVx5BXy0Ut/YwCmrInsqaSTtYNwJrVGgkYM161MXNWn7DVs/QEa+8/vENgJ59uHYwOWzZEebhAX5hwSwMg7MZK51U0jHKNGxe2RQcl+r3R+YCNoPFPm2w7NP+0TV/pt+75qZZi/fH6Y3zNnZ+XDu4aC86w9DPN0z0lazSDfTlvfKRQ+5/ASci9XOgCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=307cfc914770571070beb4b4116d4325"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>57a54b94-24ff-4bd8-b78b-e2505c5ffd69</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>347cfc914770571070beb4b4116d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>8d6fb6ef-7984-4263-b367-5bfec4865f69</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTU8bMRD9K5HPycpLYLPJrQJxolAB4kKpNbueTSx5P/AHkEb57x3vR4goqAX1gtScdsYzz++9zPh2w5RkC5ZI5PN5nOTTeDo94PwgPYyzZJrFB3IKGGdszCookSofQHu0FLcflDB4Twn33XM+lZtNepRJLot0UhSzbHKYcD5J43k6mc34jOczSDkm0SXmtZGRXVuh5Hb7gzCE9ZlbN/gRnL12AsvryvoSzUeQhl6CkWhzoxqn6uojSHvt2y3ZJZVtNKxv/rv2HtfyldLSYMUWt3dj1oChIXRo2GLz4uhvp1hDhppKTxVqaV8Z62AHxQ5L+rscim7Mu/xZ33zdH45u+kOiHkjFY4ZPDiuJxKYAbXHMSqgkuNqs2cIZTwmDIC8qvd5VrFTlCJRgVqib7quEJ6t+EpGY7Aq/0Fcgyc2xq9iFop+sLl2cgIMruil33vSl+apWOYlrjZJYgNfueD/XFVy0tnctDjI9dNfal9V5ZxPbAQyDTBlviQQ2QXdQ0sksrlb14+VA8lRVrUO9ZF3noHcROGdU5l2gs2GosSQcUULTqGopGlM/qLaZqJTRUlMQFbp+pDutWlYR5IF3RC5DdEr5kzZ9A0YFEV8Jhpq3Y0Z7c6zB2mcp5KG494FJJ6yXIFoXWgtEOx6huR3LL3TVA/bEt+Ph8YyRH705dnj4PGV7mM8P6JOI50kSH82Fd0orJ7ho6kc0ovYOlsFaB0r//oR8C0Wji7ZodDIUvXNj/kx92JjrdiRelzIszcvc2X7v6Lw76JeF//tlST/TmvSCPv2evLUdd78Alk6nm1wIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=347cfc914770571070beb4b4116d4326"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>3c7cfc914770571070beb4b4116d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>85bd0df8-ff7b-4600-8198-77070c7a80e6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX32/iOBD+V6I8UzYhQKBvq1ZIK+1upW2vL7sry4mdYp2xs7bTliL+9xsnDrCQAtnCqad7Ao/Hnm9+fOPJ94XPiH/pD0gwzsbjwSgOgigKguEwSnGYJNEwTYIkCf2OL/CMgqaWyiAzzymIHjEvVjKsUxARpnOO5/duB3tGei8gT6eME0WFf/n9Z8fPsYLbDFX+5WJr61g4HCeUg+ot2PbuKjwNEMufS7AhWVqvP7ujV7VQKmKhRB2fPhsqCAUMGeaadvwZFgQbqeYriaKY3Ai+FkyZMHAb3DOlPK/+zfCzZi9gOerZExkF/1Ja7a2WyAWrEmfX2OBbo4rUFMqpVrA1RGaxcngV0oboO0eCZWet/2L18bY+oZsHwiVEntAMF9xc/ZnNsK3NnrVZOXiTGyYh/35kM4QTXrsveTETX6us+iuE9w1lV+1cv1J9hYZg09ym1ubKJS67ncqnb3U2JkyUuNwmlynmqxU2RrGkMDYuCz8jKGOUE8QEZ8JagrTZQqKczsACmuE8Z+IB5Uo+svJW8GXWfeCw6GZcPtlYsAfRxan1vAslhrsTkF+X4nusmI3CF7gGDneswSkcdfaQThXLDXpi5IGatfVai0jzhPnfTfuu4lCdqNI9f9nx9Vxfcaz1OthQpuhXYWNQhd5FD5WJKo+UKD6CB4/UBcrWQEngcC+BMdkia5XojXrZ7SSte8gREOoo3NiK9JL5a6hcE6lyXmr83kgmdsP7Wm3U5X2GZjIKTtNMmsi+S8ZWXNwlmS26N3DsjFRq4m57ClSxOcSD8d6HbLyuOJahGcST5ZwiRVOoIo2woiiThSCocm6DIDbYGVPaOOVdwnyjkHrhSaguz0ypV2p7K+2WZDrsR02mT5lXO+KsaQ8c8UpHvJUj7dxu84z3z8C8/omYt34iJ5jxMi/a0HwjsVQpqV55yg+kdE9tHPnOHwkqPCmotw8CTWRoHAgOYD3xmHCeFnb6xzqlOOn38DCOwjAIwoDEwSiOw9EwyYY47mdrtiKkRQrzBdycQanA9agujTrPwW4nqoaMti3nCFR1CV5L8aMIgl5sPAsL8uvVsA4Dd60lkZJTLLZ6yx28DR8mDr+r18E77i//ysv+Vl4U7G475pWoMernGgQK9pdgvwr6yRbbiAa9UUjSi1Ecxhf9jAwvxgQPLvA4GcQRoWk/O8eYTAZ7Z9SN8SCVgjDrl97gmihmCVW29COyWOgisWHoVtLlcpeIB/XbMfQI9DVDrzbhN7lUP/Dbss9NF9TP0FmIGPyXqPguh+wzzdJk7wyK++vKqq5b8+QZhePhMByMUWEYZwYFMCgA9bVpGpvrjZZkOIyuJsOdg7eF1lGgXDZ9ZZbHtr4yg//7V+b7nNEAEONQK6hKppaFKkP5iFJe6HJDYaHd583p3pWf/wAP5gJA0BUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3c7cfc914770571070beb4b4116d4323"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>68bf3f12-95fa-4f39-a332-431126b8d68b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>b87cfc914770571070beb4b4116d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>baeba89e-5a94-4e14-9997-54e87a6ae548</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/iMBD9K8hniBxSQuC2asWpH1Jbcel2LSeeFEvOR22HwiL++46dBFC31W6rvVRaTpnxzPO8xxs/7IgUZE5iAXQ2C+MsCqNoTOk4OQvTOErDsYg4hCkZkpIXgJVrrhowGPsPTGh4ZqZJ7baG7w2lkdjtkkkqqMiTUZ5P09FZTOkoCWfJaDqlU5pNeUIhDm4hq7QITtr3+x8YIbr9DJDZGiYFYmRVaZoC9GdA+l6EEWAyLWsrq/IzSCft+z3KJaSpFd8u/6v2EdWylVRCQ0nmD49DUnONJrSgyXz36uhvXax4CgpLFxKUMG/Y2kmKsYUC/y4LrLV5m7/smu+7w8GyO8TR3VDhkMDGQikAp8m5MjAkBS8Ft5XekrnVDSY0cHFTqu2hYiVLi6AIswJVt18F3xj5EwcJUS73c305IN0M2opDyDpnten8glt+hzdlttFdabaqZIbkvFACct4oe36aawtuvOxti+Wp6rsr1RTldSsTOQD0RsZMY3AIqB1vx6Slmd+tqpfbfsiFLL1CHWVVZVwdIm6tlmlj3Tg7AgoKxGEFr2tZPrFaV2vpm3GUInhSGAS5ql7wTiOfyoBnbu4AVebBAvMXPr3kWjoSVwiDzfshQaufK27MkQpqyJ4bN0lLrKPAvApeAubt4Zq9Lb/hVWvoBt8P+8czBDp513ZwdnTZCebxAd2wcBbH4WTGGiuVtIwyb3LmdUaWlkv1+wty5WoGC1czuOhrPrgvfx6835d7b4i3ifQr8zp3edo7uG4PulWh/35Vkq+0JB2hL78l7+3G4y8LfvG0WggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b87cfc914770571070beb4b4116d4325"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6c7cbc914770571070beb4b4116d43c9^sys_idNOT IN307cfc914770571070beb4b4116d4322,3c7cfc914770571070beb4b4116d431f,747cfc914770571070beb4b4116d431d"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">934b3cd94730571070beb4b4116d43ec</block>
+        <comment/>
+        <connected_to>a6cf5682-9c11-4aef-8430-2857c988bc5e</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>307cfc914770571070beb4b4116d4322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>57a54b94-24ff-4bd8-b78b-e2505c5ffd69</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V0U7bMBT9lcjPbeS00Ja+IRDSpG1MgHjZUHRj37TWnDjYDqWr+u+7jpOCBtLExt72UsXHvtfnnN6T7JhpfdN6d2NOnVOrmi2/3o2YqgNGzztWQ4VsyYSppfLK1GzEHkC3AdvtFseF5LJcjMtyXoyPZpyPF9nJYjyf8zkXc1hwnKVXKIyVqcX7Fp3P/bbB/f5by/lUNmaDNicKsEJqLJVrNGxv/1V/sVZaWuxFNmBJm0fLlrtftpSk60sOZXYiMjGdzKYTzieLo6yYTYtsIqeAkFFDDQVqOnr2zJ1XDAuUCHLeqnrVrz/2pdcDSBoClQkfMXz0WEskEiVohyNWQS3BG7tlS29bAiyCvKz19nBirWpP3ajPGnUTnyp4dOoHhp6ch5oSSaHAuHtY5r3tES7PwQORaoVvbX9UrI0S6KI3EktotT97jsUDl02ntyvxUOih2ui2qj9HW9ihwfAvE9I6IoFN0BxU9JLK67XZXA0sL1Td+dNvaiNAH1bgycWi9YHPjqHGihrlFTQNeZs31jyorpi4VOlK0yIttdnQpWHmUxCBeEoWQ3pB+HkH34JVQcUnakPFNBUud8KqZtDWXc72I+a27kyDc08aydz8vg0Mo+JeWx7tCSVdo1O6+AF7GfvRy7TlHfAUOVUmfo1JP+tJGKREuSROe/xNvoShT+LQJy9T9Sct3jU4k9eCk8Q8vIzP4MBbMpT9JkM98sYQHR//z9BfZyjQLMApkXffGGoXXmjvGKK7EJZ46cFsoRxxuwnYh+HLFja2NFtKPIc2xn4Pqp6w/U/AGllwIwcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">95ba30dd4730571070beb4b4116d437d</block>
+        <comment/>
+        <connected_to>a6cf5682-9c11-4aef-8430-2857c988bc5e</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>3c7cfc914770571070beb4b4116d431f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>68bf3f12-95fa-4f39-a332-431126b8d68b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VwU7jMBD9lcjnNHJSaAs3BEJaCRYJEJddFE3sCbXWiYPtAN2q/77jOC2IBa3Y5biXKn6TGb/3Mk9dM9P7rvfu2hw5p+5advjtNmWqDRg9r1kLDbJDJkwrlVemLQcgZQ+g+1BQdeKXmFi879H5xK86TJRLvvecT2X8Tc7Ro01q6LWnTqlcp2F189cDxFJpaXHk2oElRlRnh+tXJSVpfs2hzg9ELqbFbFpwXiz28mo2rfJCTgGhoIEaKtT06vFWZHI2IOm76gNLwp23qr0bz2fjlKstaKwMrHKeMnzy2EokPjVohylroJXgjV3tEIsgL1r9DCxV62kcDVqi7uJTA09O/aSri/390FIjiRUYi7tjOVoc4foEPBCpXvjejq+KpVECXbRJ4uDs8UssvnDRBdGxxUOlt91G9037NXrDdgO2X5SQ3hEJ7ILmIGJUVF8tzePlluWpagd/xqI2AvTuBJ5crHof+KwZamxoUNlA15G3ZWfNgxqaiUuT3Wk6ZLU2j3Rp2OIMRCCekcWQnRJ+MsA3YFVQcU5jqDnSrMApUQ4bT+PIJmSblLmVO9bg3LNIcre87wPFKHkUV0Z/QouwqvNHdPMDjjo26e8BepGd9XqxX0ku68WkrufVZG/G+WSRHywm8zmfczGHBcdZdomCVikbE1KGXdtsYjKGxS/fSdZnj//U3OVv5e6NxH0wbMUfwha+74ezxjn/H7Z/DptyZYzIqG24/BOzdhuCFe/ceS2UI2rXAfuy/U8LhRWtmRIvoUdjfwRRz9jmF5r2cEgdBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1ed330514730571070beb4b4116d4370</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Sub Record in 4 tables">6c7cbc914770571070beb4b4116d43c9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>747cfc914770571070beb4b4116d431d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <ui_id>a6cf5682-9c11-4aef-8430-2857c988bc5e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYFnW6Ds+BHfggQBCrQJkAS9tIGwopYxUYpS+IjjGv73LvWwgyZAkT5uvRjikDvcGe9IO1YH3wTv7uoz59SDYasv9yOmTMToeccMVMhWTNSmVF7Vho3YE+gQsd1uOStKXsrlWMpFMT6Zcz5eZqfL8WLBF1wsYMlxnt6gqG2ZWnwM6Hzutw3u918D59PS4CYnZoOipy6VazRsP/+7G8Ra6dJiL7QBS/o8Wrba/bSlSmrgFGZylvGZmE7m0wnnk+VJVsynRTYpp4AncyLUUKCmo+cvHHrDtNgUQc5bZR769ce+9HYASUVsZcJHDJ89mhKpCQna4YhVYErwtd2ylbeBAItQXhu9PZxYK+OJjXjWqJvuqYJnp75j5OQ81kgkhQK73cMy743vYHkBHqipIHyw/VGxrpVA13lTooSg/flLrDtw3bR62xIPhR6qax0qc9XZwg4Ew/9MSHDUBDZRc1TRS5K363pzM3R5qUzrT7+pawH6sAJPLhbBx352DDVWRJRX0DTkbd7Y+km1xdRLlT5oWqRS1xu6NM59Cu2ApGQxpJeEX7TwZ7AqqvhENFRMU+FyJ6xqBm3t5Ww/Ym7rzjU4d9RI5uaPIXbYKe615Z09saQlOqOLn7CXsR+9TlzeAsfYKZn4NSb9tCdxkBLlkm7eu9/kCjfJceyT18n6PZL3hUdykNmpyN4OD0zfCk/SZeJ1hAYX3pOj7Bc56pF3Bmk2+5+jP85RbLMAp0TefmuILr7U/mKQ7mNguksPZgvlqLe7iH0YvnBxY0uzpcRLaFPbb1HVEdv/AD9C0ZkrBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>number</element>
+        <help/>
+        <hint/>
+        <label>number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6c7cbc914770571070beb4b4116d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>3c7cbc914770571070beb4b4116d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_record</element>
+        <help/>
+        <hint/>
+        <label>request record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6c7cbc914770571070beb4b4116d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>707cbc914770571070beb4b4116d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6c7cbc914770571070beb4b4116d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>307cfc914770571070beb4b4116d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output1</element>
+        <help/>
+        <hint/>
+        <label>Output1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6c7cbc914770571070beb4b4116d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_id>f87cfc914770571070beb4b4116d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6c7cbc914770571070beb4b4116d43c9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e453b8d547fcd31070beb4b4116d4377</sys_id>
+        <latest_snapshot>6c7cbc914770571070beb4b4116d43c9</latest_snapshot>
+        <compiler_build>glide-brazil-08-25-2026__patch1-09-21-2026_10-05-2026_1244.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e453b8d547fcd31070beb4b4116d4377"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e453b8d547fcd31070beb4b4116d4377^sys_idNOT INf87cfc914770571070beb4b4116d4345"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_subflow_plan","id":"f87cfc914770571070beb4b4116d4345","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id display_value="Create Sub Record in 4 tables">e453b8d547fcd31070beb4b4116d4377</plan_id>
+        <snapshot>6cccb8d14770571070beb4b4116d4395</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 17:47:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f87cfc914770571070beb4b4116d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 17:47:03</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

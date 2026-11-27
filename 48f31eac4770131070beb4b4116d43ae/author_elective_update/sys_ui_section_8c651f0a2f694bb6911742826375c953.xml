@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Safety" section_id="8c651f0a2f694bb6911742826375c953" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>7dc5befc4f744eecbcea90b05a953eb8</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>is_safety_hazard</element>
+      <position>1</position>
+      <sys_id>4a608b35f72441ec978515cc4b2d5368</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>2</position>
+      <sys_id>1ae1b25f08224813bef0f6f79697b073</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>hazard_details</element>
+      <position>3</position>
+      <sys_id>54602f3d07a24b918b7e5695f5095afa</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>4</position>
+      <sys_id>b89a32b3ba0c4190b52862e6435aa556</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE" apply_defaults="true">
+      <caption>Safety</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>8c651f0a2f694bb6911742826375c953</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_section_8c651f0a2f694bb6911742826375c953</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Safety" section_id="8c651f0a2f694bb6911742826375c953" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>7dc5befc4f744eecbcea90b05a953eb8</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>is_safety_hazard</element>
+      <position>1</position>
+      <sys_id>4a608b35f72441ec978515cc4b2d5368</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>2</position>
+      <sys_id>1ae1b25f08224813bef0f6f79697b073</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>hazard_details</element>
+      <position>3</position>
+      <sys_id>54602f3d07a24b918b7e5695f5095afa</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>4</position>
+      <sys_id>b89a32b3ba0c4190b52862e6435aa556</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Safety</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>8c651f0a2f694bb6911742826375c953</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>467479772</payload_hash>
+        <record_name>Request</record_name>
+        <reverted_from/>
+        <source>546c5a6047f0131070beb4b4116d43c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+        <sys_id>5e7c1aa047f0131070beb4b4116d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a209518abb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5e7c1aa033f01310f4f744da5287fcda</update_guid>
+        <update_guid_history>5e7c1aa033f01310f4f744da5287fcda:-1827366955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 11:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>30eb34774bdb4bb397d09c5ca2ca85a9</sys_id>
+        <sys_metadata>8c651f0a2f694bb6911742826375c953</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="Request">e7c836de02c04dbb99e0e4473c95bf7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8c651f0a2f694bb6911742826375c953</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8c651f0a2f694bb6911742826375c953">5e7c1aa047f0131070beb4b4116d43db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 11:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

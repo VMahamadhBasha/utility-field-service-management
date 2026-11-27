@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="658663994734971070beb4b4116d4322" sys_domain="global" table="x_1966159_utilit_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc79e7dd4734971070beb4b4116d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">658663994734971070beb4b4116d4322</sys_ui_form>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">207967dd4734971070beb4b4116d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:22:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7479e7dd4734971070beb4b4116d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">658663994734971070beb4b4116d4322</sys_ui_form>
+            <sys_ui_section caption="Problem Details" display_value="Problem Details" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">ac79a7dd4734971070beb4b4116d434b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:22:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f079e7dd4734971070beb4b4116d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">658663994734971070beb4b4116d4322</sys_ui_form>
+            <sys_ui_section caption="AI Classification Details" display_value="AI Classification Details" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">a479a7dd4734971070beb4b4116d434d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:22:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7479e7dd4734971070beb4b4116d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">658663994734971070beb4b4116d4322</sys_ui_form>
+            <sys_ui_section caption="Dispatch Details" display_value="Dispatch Details" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">ac79a7dd4734971070beb4b4116d434e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:22:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc79e7dd4734971070beb4b4116d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">658663994734971070beb4b4116d4322</sys_ui_form>
+            <sys_ui_section caption="Resolution and Closure Details" display_value="Resolution and Closure Details" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">a479a7dd4734971070beb4b4116d4350</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:22:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1966159_utilit_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:10:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>658663994734971070beb4b4116d4322</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1966159_utilit_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_ui_form_sections_658663994734971070beb4b4116d4322</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:10:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Request Form" name="request_form">e49fdef44770931070beb4b4116d43f5</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>61016872fb5547b796d1fbaa486d9953</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>9fb652f44730931070beb4b4116d4303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>ced032d8afb54c69ac6d0baf7766b88d</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>93b652f44730931070beb4b4116d4305</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>consumer_name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>94918b9850b14eedadfa818c827ea234</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>5fb652f44730931070beb4b4116d4305</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>consumer_number</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>0f5591ea53df4104a9c37877af7f33dc</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>1bb652f44730931070beb4b4116d4306</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>c36cad19a8af4ad4a0184c33fe743247</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>d3b652f44730931070beb4b4116d4307</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>connection_type</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>189312b22bbc46f48d119850a6d2c694</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>9fb652f44730931070beb4b4116d4307</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>connection_status</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>1ee7ba521b974ab19fe5508fdb360a6b</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>5bb652f44730931070beb4b4116d4308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>active</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>f4e19fb2fa6044db994281e9567e6393</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>17b652f44730931070beb4b4116d4309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>a844dcffd7fa4522b1c94438816190b1</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>dfb652f44730931070beb4b4116d4309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>.begin_split</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>f3207a354991499086f3fbb5dbb27858</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>9bb652f44730931070beb4b4116d430a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>transformer</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>d2c7fc4b54464043bc24f74059ff7c4c</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>1fb652f44730931070beb4b4116d4317</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>area</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>99ff0da3aa174cba803cac917ff8a68f</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>d7b652f44730931070beb4b4116d4318</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>.split</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>8df16d392b8c49369a16ee0e3bf7c566</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>93b652f44730931070beb4b4116d4319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>meter_number</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>bb602ca02a684438a8c4741dda792df9</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>5fb652f44730931070beb4b4116d4319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>meter_type</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>df7626f48b764cff9eb9b81b26016a1f</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>1bb652f44730931070beb4b4116d431a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,13 +214,13 @@
             <element>.end_split</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>69ef44f4461d493da1e782daed5bbd3b</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>d3b652f44730931070beb4b4116d431b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -228,13 +228,13 @@
             <element>.begin_split</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>4ed98637fc134cd183839a328a8d8af3</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>9fb652f44730931070beb4b4116d431b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -242,13 +242,13 @@
             <element>sanctioned_load_kw</element>
             <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>d3ec229137354893b465e6ecd290b9ba</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>5bb652f44730931070beb4b4116d431c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -256,13 +256,13 @@
             <element>tariff_category</element>
             <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>5b3e1d938cc644e383abbfd0e280f089</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>17b652f44730931070beb4b4116d431d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -270,13 +270,13 @@
             <element>.split</element>
             <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>176bde8a06a64bfdb3d2eebc52a068cb</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>dfb652f44730931070beb4b4116d431d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -284,13 +284,13 @@
             <element>connected_on</element>
             <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>88a885b0da3b4b48b426b016a95e9b7c</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>9bb652f44730931070beb4b4116d431e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -298,13 +298,13 @@
             <element>last_meter_reading</element>
             <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>877910eb8fad4c9c96ae0ed7c4e70249</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>57b652f44730931070beb4b4116d431f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -312,13 +312,13 @@
             <element>.end_split</element>
             <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>d312213ddf4944e39fb7a464f5c84ccd</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>13b652f44730931070beb4b4116d4320</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -326,13 +326,13 @@
             <element>.begin_split</element>
             <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>d416d72d323d46e9bd077e74a1f3c53f</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>dbb652f44730931070beb4b4116d4320</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -340,13 +340,13 @@
             <element>latitude</element>
             <position>24</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>47ecdb3776be431891ca0edb860f1646</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>97b652f44730931070beb4b4116d4321</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -354,13 +354,13 @@
             <element>.split</element>
             <position>25</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>510042bcd40e4f1597f5090a20297ea8</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>53b652f44730931070beb4b4116d4322</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -368,13 +368,13 @@
             <element>longitude</element>
             <position>26</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>2c9984ef189c482fa85f21f4e4c60a7b</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>1fb652f44730931070beb4b4116d4322</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -382,13 +382,13 @@
             <element>.end_split</element>
             <position>27</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>52c7e7225aca49868a54df52ba470787</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>d7b652f44730931070beb4b4116d4323</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -396,13 +396,13 @@
             <element>service_address</element>
             <position>28</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>83af17bd6f74407b95a02b703f525950</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>93b652f44730931070beb4b4116d4324</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -410,13 +410,27 @@
             <element>description</element>
             <position>29</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:09</sys_created_on>
-            <sys_id>7c9a3d34515d480db0625dc42d164722</sys_id>
+            <sys_created_on>2026-11-24 11:04:34</sys_created_on>
+            <sys_id>5fb652f44730931070beb4b4116d4324</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:04:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 11:38:05</sys_created_on>
+            <sys_id>de6ede744770931070beb4b4116d4300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Connection Details" display_value="Service Connection Details" name="x_1966159_utilit_0_svc_conn" sys_domain="global" view="Default view">98eeee0ff2d84447bde966aa50c906aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 11:38:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

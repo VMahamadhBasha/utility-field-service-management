@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="DELETE" apply_defaults="true">
+    <sys_id>7b4d1618f99d4867a9e5cfab624bd7fb</sys_id>
+    <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+    <sys_update_name>sys_ui_policy_action_7b4d1618f99d4867a9e5cfab624bd7fb</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>true</disabled>
+    <field>classification_status</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>ignore</mandatory>
+    <table>x_1966159_utilit_0_request</table>
+    <ui_policy short_description="Make AI classification fields read-only" table="x_1966159_utilit_0_request">ba83fb7847c549d59b95f902cad54bfa</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>ignore</visible>
+  </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_policy_action_7b4d1618f99d4867a9e5cfab624bd7fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>7b4d1618f99d4867a9e5cfab624bd7fb</sys_id>
+    <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+    <sys_update_name>sys_ui_policy_action_7b4d1618f99d4867a9e5cfab624bd7fb</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>true</disabled>
+    <field>classification_status</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>ignore</mandatory>
+    <table>x_1966159_utilit_0_request</table>
+    <ui_policy short_description="Make AI classification fields read-only" table="x_1966159_utilit_0_request">ba83fb7847c549d59b95f902cad54bfa</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>ignore</visible>
+  </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1640233279</payload_hash>
+        <record_name>classification_status</record_name>
+        <reverted_from/>
+        <source>546c5a6047f0131070beb4b4116d43c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:06</sys_created_on>
+        <sys_id>757cd6a047f0131070beb4b4116d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20951844a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>f17cd6a0b2f013109876cfb27530f4a2</update_guid>
+        <update_guid_history>f17cd6a0b2f013109876cfb27530f4a2:-1489612041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 11:59:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>01d6f50cbb6e4240828b25dbd35d1000</sys_id>
+        <sys_metadata>7b4d1618f99d4867a9e5cfab624bd7fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>classification_status</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7b4d1618f99d4867a9e5cfab624bd7fb</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7b4d1618f99d4867a9e5cfab624bd7fb">757cd6a047f0131070beb4b4116d43a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 11:59:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

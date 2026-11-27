@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Dispatch" section_id="3c43439f3f9444caae5b5be27443558f" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>fa8c917453914afba13036b93b40707f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>dispatch_decided_by</element>
+      <position>1</position>
+      <sys_id>e72c588cec1e4433b6a506c3ed29b2cc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>dispatch_decided_on</element>
+      <position>2</position>
+      <sys_id>b49874d14e804ebabbb6cfe536a633fc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>e0bde97eb4164a37ae54050124a43397</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>dispatch_rejection_reason</element>
+      <position>4</position>
+      <sys_id>d12146f9e5e34623ad7fd15e98d575ae</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>bb777a869f64474eb969182ec84905f9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE" apply_defaults="true">
+      <caption>Dispatch</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>3c43439f3f9444caae5b5be27443558f</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_section_3c43439f3f9444caae5b5be27443558f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Dispatch" section_id="3c43439f3f9444caae5b5be27443558f" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>fa8c917453914afba13036b93b40707f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>dispatch_decided_by</element>
+      <position>1</position>
+      <sys_id>e72c588cec1e4433b6a506c3ed29b2cc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>dispatch_decided_on</element>
+      <position>2</position>
+      <sys_id>b49874d14e804ebabbb6cfe536a633fc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>e0bde97eb4164a37ae54050124a43397</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>dispatch_rejection_reason</element>
+      <position>4</position>
+      <sys_id>d12146f9e5e34623ad7fd15e98d575ae</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>bb777a869f64474eb969182ec84905f9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Dispatch</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>3c43439f3f9444caae5b5be27443558f</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-2123239907</payload_hash>
+        <record_name>Request</record_name>
+        <reverted_from/>
+        <source>546c5a6047f0131070beb4b4116d43c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:07</sys_created_on>
+        <sys_id>4e7c1aa047f0131070beb4b4116d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a2095188260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4e7c1aa0e9f013102d94fea14de37153</update_guid>
+        <update_guid_history>4e7c1aa0e9f013102d94fea14de37153:-1613588504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 11:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>c03b025312f74066912dfb1dd45ecc64</sys_id>
+        <sys_metadata>3c43439f3f9444caae5b5be27443558f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dispatch</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="Request">e7c836de02c04dbb99e0e4473c95bf7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3c43439f3f9444caae5b5be27443558f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3c43439f3f9444caae5b5be27443558f">4e7c1aa047f0131070beb4b4116d4354</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 11:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

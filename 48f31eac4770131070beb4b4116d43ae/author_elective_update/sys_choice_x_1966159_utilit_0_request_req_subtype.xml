@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="req_subtype" table="x_1966159_utilit_0_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>req_subtype</element>
+            <name>x_1966159_utilit_0_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:17:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>req_subtype</sys_name>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_choice_x_1966159_utilit_0_request_req_subtype</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:17:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>new_connection</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agricultural Connection</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:19:55</sys_updated_on>
+            <value>agricultural_connection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>new_connection</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commercial Connection</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:17:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:19:51</sys_updated_on>
+            <value>commercial_connection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>power_outage</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete Power Failure</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:22:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:24:03</sys_updated_on>
+            <value>complete_power_failure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Distribution Line Inspection</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:25:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:27:04</sys_updated_on>
+            <value>distribution_line_inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Distribution Line Repair</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:25:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:27:06</sys_updated_on>
+            <value>distribution_line_repair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>new_connection</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Domestic Connection</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:19:49</sys_updated_on>
+            <value>domestic_connection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency Equipment Maintenance</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:26:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:39:04</sys_updated_on>
+            <value>emergency_equipment_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feeder Inspection</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:24:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:26:55</sys_updated_on>
+            <value>feeder_inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feeder Repair</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:26:58</sys_updated_on>
+            <value>feeder_repair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>meter_fault</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect Meter Operation</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:21:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:22:12</sys_updated_on>
+            <value>incorrect_meter_operation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>new_connection</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industrial Connection</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:19:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:19:57</sys_updated_on>
+            <value>industrial_connection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>power_outage</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intermittent Power Supply</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:24:06</sys_updated_on>
+            <value>intermittent_power_supply</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>power_outage</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low Voltage</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:23:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:24:10</sys_updated_on>
+            <value>low_voltage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>meter_fault</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meter Damaged</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:22:10</sys_updated_on>
+            <value>meter_damaged</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>meter_fault</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meter Display Failure</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:22:08</sys_updated_on>
+            <value>meter_display_failure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>meter_fault</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meter Not Working</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:20:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:22:06</sys_updated_on>
+            <value>meter_not_working</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>meter_fault</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meter Replacement</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:21:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:22:14</sys_updated_on>
+            <value>meter_replacement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:27:22</sys_updated_on>
+            <value>other_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>meter_fault</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:21:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:22:16</sys_updated_on>
+            <value>other_meter_fault</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>new_connection</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:19:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:19:59</sys_updated_on>
+            <value>other_new_connection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>power_outage</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:24:16</sys_updated_on>
+            <value>other_power_outage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>power_outage</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partial Power Interruption</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:23:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:24:08</sys_updated_on>
+            <value>partial_power_interruption</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scheduled Preventive Maintenance</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:25:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:27:09</sys_updated_on>
+            <value>scheduled_preventive_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Substation Maintenance</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:25:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:27:00</sys_updated_on>
+            <value>substation_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>maintenance</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transformer Maintenance</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:24:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:26:53</sys_updated_on>
+            <value>transformer_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>power_outage</dependent_value>
+            <element>req_subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voltage Fluctuation</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:24:12</sys_updated_on>
+            <value>voltage_fluctuation</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

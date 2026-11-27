@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Customer Information" section_id="46e25dc396b849928aed4509d600d806" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>afd1d24bb86643fe84b1e0e934580b4d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>customer_name</element>
+      <position>1</position>
+      <sys_id>973d3959d8104a9d80552b44e84d23ff</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>contact_number</element>
+      <position>2</position>
+      <sys_id>1673c95d63584bb5b0435001203a3a65</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>94febf07ffcf4f019412d3084c4f2e95</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>requested_by</element>
+      <position>4</position>
+      <sys_id>c20e4521e5794620b5fb69f2ee0fd7af</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>area</element>
+      <position>5</position>
+      <sys_id>4c3621f3496147488a21b62f63e6b452</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>b3b6970df6a4455a86d330346d30f294</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE" apply_defaults="true">
+      <caption>Customer Information</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>46e25dc396b849928aed4509d600d806</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_section_46e25dc396b849928aed4509d600d806</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Customer Information" section_id="46e25dc396b849928aed4509d600d806" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>afd1d24bb86643fe84b1e0e934580b4d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>customer_name</element>
+      <position>1</position>
+      <sys_id>973d3959d8104a9d80552b44e84d23ff</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>contact_number</element>
+      <position>2</position>
+      <sys_id>1673c95d63584bb5b0435001203a3a65</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>94febf07ffcf4f019412d3084c4f2e95</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>requested_by</element>
+      <position>4</position>
+      <sys_id>c20e4521e5794620b5fb69f2ee0fd7af</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>area</element>
+      <position>5</position>
+      <sys_id>4c3621f3496147488a21b62f63e6b452</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>b3b6970df6a4455a86d330346d30f294</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Customer Information</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>46e25dc396b849928aed4509d600d806</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-705510423</payload_hash>
+        <record_name>Request</record_name>
+        <reverted_from/>
+        <source>546c5a6047f0131070beb4b4116d43c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:08</sys_created_on>
+        <sys_id>8a7c1aa047f0131070beb4b4116d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a2095189360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:08</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>8a7c1aa086f013105a099a2de1b27e99</update_guid>
+        <update_guid_history>8a7c1aa086f013105a099a2de1b27e99:-1444132618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 11:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>18dc1c56835e49b48e2dd87ee45a25e1</sys_id>
+        <sys_metadata>46e25dc396b849928aed4509d600d806</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Information</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="Request">e7c836de02c04dbb99e0e4473c95bf7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_section_46e25dc396b849928aed4509d600d806</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_46e25dc396b849928aed4509d600d806">8a7c1aa047f0131070beb4b4116d439a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 11:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

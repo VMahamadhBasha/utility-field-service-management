@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3755ae244734131070beb4b4116d43ea" label="Power Outage Detail" max_length="40" name="x_1966159_utilit_0_power_outage_detail" type="collection">
         <element label="Outage End Time" max_length="40" name="outage_end_time" type="glide_date_time"/>
+        <element label="Affected Premises Details" max_length="255" name="affected_premises_details" type="string_full_utf8"/>
         <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
-        <element label="Outage Duration (Minutes)" max_length="40" name="outage_duration_minutes" type="integer"/>
+        <element choice="1" label="Req Subtype" max_length="40" name="req_subtype" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low Voltage" value="low_voltage"/>
+                <element inactive_on_update="false" label="Complete Power Failure" value="Complete Power Failure"/>
+                <element inactive_on_update="false" label="Voltage Fluctuation" value="voltage_fluctuation"/>
+                <element inactive_on_update="false" label="Other" value="other_power_outage"/>
+                <element inactive_on_update="false" label="Intermittent Power Supply" value="intermittent_power_supply"/>
+                <element inactive_on_update="false" label="Partial Power Interruption" value="partial_power_interruption"/>
+            </choice>
+        </element>
         <element label="Outage Start Time" max_length="40" name="outage_start_time" type="glide_date_time"/>
-        <element label="Affected Consumers" max_length="40" name="affected_consumers" type="integer"/>
+        <element choice="1" label="Problem Frequency" max_length="40" name="problem_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Continuous" value="continuous"/>
+                <element inactive_on_update="false" label="Occasionally" value="occasionally"/>
+                <element inactive_on_update="false" label="Frequently" value="frequently"/>
+                <element inactive_on_update="false" label="Unknown" value="unknown"/>
+                <element inactive_on_update="false" label="At Specific Times" value="specific_times"/>
+            </choice>
+        </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Observed Voltage" max_length="20" name="observed_voltage" type="decimal"/>
         <index name="index">
             <element name="request"/>
         </index>

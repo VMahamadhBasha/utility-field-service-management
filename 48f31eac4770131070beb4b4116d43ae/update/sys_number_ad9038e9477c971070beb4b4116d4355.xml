@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1966159_utilit_0_power_outage_details">x_1966159_utilit_0_power_outage_details</category>
+        <maximum_digits>10</maximum_digits>
+        <number>1000000</number>
+        <prefix>POF</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-26 11:33:42</sys_created_on>
+        <sys_id>ad9038e9477c971070beb4b4116d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POF</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_number_ad9038e9477c971070beb4b4116d4355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-26 11:33:42</sys_updated_on>
+    </sys_number>
+</record_update>

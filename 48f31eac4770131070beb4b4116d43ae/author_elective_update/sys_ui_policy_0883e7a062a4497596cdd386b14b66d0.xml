@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy">
+  <sys_ui_policy action="DELETE" apply_defaults="true">
+    <sys_id>0883e7a062a4497596cdd386b14b66d0</sys_id>
+    <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+    <sys_update_name>sys_ui_policy_0883e7a062a4497596cdd386b14b66d0</sys_update_name>
+    <active>true</active>
+    <conditions>is_safety_hazard=true</conditions>
+    <description/>
+    <global>true</global>
+    <inherit>false</inherit>
+    <isolate_script>false</isolate_script>
+    <model_id/>
+    <model_table/>
+    <on_load>true</on_load>
+    <order>100</order>
+    <reverse_if_false>true</reverse_if_false>
+    <run_scripts>false</run_scripts>
+    <script_false>function onCondition() {
+
+}</script_false>
+    <script_true>function onCondition() {
+
+}</script_true>
+    <set_values/>
+    <short_description>Show Hazard Details when safety hazard is indicated</short_description>
+    <table>x_1966159_utilit_0_request</table>
+    <ui_type>0</ui_type>
+    <view/>
+  </sys_ui_policy>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_policy_0883e7a062a4497596cdd386b14b66d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy">
+  <sys_ui_policy action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0883e7a062a4497596cdd386b14b66d0</sys_id>
+    <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+    <sys_update_name>sys_ui_policy_0883e7a062a4497596cdd386b14b66d0</sys_update_name>
+    <active>true</active>
+    <conditions>is_safety_hazard=true</conditions>
+    <description/>
+    <global>true</global>
+    <inherit>false</inherit>
+    <isolate_script>false</isolate_script>
+    <model_id/>
+    <model_table/>
+    <on_load>true</on_load>
+    <order>100</order>
+    <reverse_if_false>true</reverse_if_false>
+    <run_scripts>false</run_scripts>
+    <script_false>function onCondition() {
+
+}</script_false>
+    <script_true>function onCondition() {
+
+}</script_true>
+    <set_values/>
+    <short_description>Show Hazard Details when safety hazard is indicated</short_description>
+    <table>x_1966159_utilit_0_request</table>
+    <ui_type>0</ui_type>
+    <view/>
+  </sys_ui_policy>
+</record_update>]]></payload>
+        <payload_hash>1650186909</payload_hash>
+        <record_name>Show Hazard Details when safety hazard is indicated</record_name>
+        <reverted_from/>
+        <source>546c5a6047f0131070beb4b4116d43c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:06</sys_created_on>
+        <sys_id>797cd6a047f0131070beb4b4116d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a2095183730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>f57cd6a074f0131087faac99c6f42e6b</update_guid>
+        <update_guid_history>f57cd6a074f0131087faac99c6f42e6b:-885484380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 11:58:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>0104a2b968e64bf280015207b5a36ca4</sys_id>
+        <sys_metadata>0883e7a062a4497596cdd386b14b66d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Hazard Details when safety hazard is indicated</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="Request">e7c836de02c04dbb99e0e4473c95bf7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_0883e7a062a4497596cdd386b14b66d0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_0883e7a062a4497596cdd386b14b66d0">797cd6a047f0131070beb4b4116d436c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 11:58:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -10,24 +10,24 @@
                 <element inactive_on_update="false" label="Service Portal" sequence="1" value="service_portal"/>
             </choice>
         </element>
-        <element label="Request Subtype" max_length="100" name="request_subtype" type="string"/>
         <element label="Classification Notes" max_length="500" name="classification_notes" type="string"/>
         <element label="Is Safety Hazard" name="is_safety_hazard" type="boolean"/>
         <element label="Contact Number" mandatory="true" max_length="20" name="contact_number" type="string"/>
-        <element label="Service Connection" name="service_connection" reference="x_1966159_utilit_0_svc_conn" reference_qual="active=true" type="reference"/>
-        <element label="Transformer" name="transformer" reference="x_1966159_utilit_0_transformer" reference_qual="active=true" type="reference"/>
-        <element default="javascript:gs.nowDateTime()" label="Reported On" name="reported_on" type="glide_date_time"/>
+        <element label="Service Connection" max_length="0" name="service_connection" reference="x_1966159_utilit_0_svc_conn" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Site Details" max_length="255" name="site_details" type="string_full_utf8"/>
+        <element label="Transformer" max_length="32" name="transformer" reference="x_1966159_utilit_0_transformer" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Reported On" max_length="0" name="reported_on" type="glide_date_time" use_dynamic_default="true"/>
         <element label="Classification Confidence" name="classification_confidence" type="decimal"/>
-        <element label="Request Type" name="request_type" type="choice">
+        <element choice="1" dependent="test1" dependent_on_field="test1" label="Test2" max_length="40" name="test2" type="choice" use_dependent_field="true">
             <choice>
-                <element inactive_on_update="false" label="Meter Fault" sequence="2" value="meter_fault"/>
-                <element inactive_on_update="false" label="Maintenance" sequence="4" value="maintenance"/>
-                <element inactive_on_update="false" label="Power Outage" sequence="1" value="power_outage"/>
-                <element inactive_on_update="false" label="New Connection" sequence="3" value="new_connection"/>
+                <element dependent_value="1" inactive_on_update="false" label="11" value="11"/>
+                <element dependent_value="2" inactive_on_update="false" label="222" value="222"/>
+                <element dependent_value="2" inactive_on_update="false" label="22222" value="22222"/>
+                <element dependent_value="1" inactive_on_update="false" label="1111" value="11111"/>
             </choice>
         </element>
-        <element label="Dispatch Decided On" name="dispatch_decided_on" type="glide_date_time"/>
-        <element label="Dispatch Decided By" name="dispatch_decided_by" reference="sys_user" type="reference"/>
+        <element label="Dispatch Decided On" max_length="0" name="dispatch_decided_on" type="glide_date_time"/>
+        <element label="Dispatch Decided By" max_length="0" name="dispatch_decided_by" reference="sys_user" type="reference"/>
         <element default="pending" label="Classification Status" name="classification_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Manual Review" sequence="4" value="manual_review"/>
@@ -37,13 +37,47 @@
             </choice>
         </element>
         <element label="Customer Name" mandatory="true" max_length="100" name="customer_name" type="string"/>
-        <element label="Closed On" name="closed_on" type="glide_date_time"/>
-        <element label="Resolved On" name="resolved_on" type="glide_date_time"/>
+        <element choice="1" dependent="request_type" dependent_on_field="request_type" label="Req Subtype" max_length="40" name="req_subtype" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="power_outage" inactive_on_update="false" label="Complete Power Failure" value="complete_power_failure"/>
+                <element dependent_value="meter_fault" inactive_on_update="false" label="Other" value="other_meter_fault"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Other" value="other_maintenance"/>
+                <element dependent_value="new_connection" inactive_on_update="false" label="Agricultural Connection" value="agricultural_connection"/>
+                <element dependent_value="power_outage" inactive_on_update="false" label="Low Voltage" value="low_voltage"/>
+                <element dependent_value="new_connection" inactive_on_update="false" label="Industrial Connection" value="industrial_connection"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Feeder Inspection" value="feeder_inspection"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Distribution Line Inspection" value="distribution_line_inspection"/>
+                <element dependent_value="new_connection" inactive_on_update="false" label="Domestic Connection" value="domestic_connection"/>
+                <element dependent_value="new_connection" inactive_on_update="false" label="Other" value="other_new_connection"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Scheduled Preventive Maintenance" value="scheduled_preventive_maintenance"/>
+                <element dependent_value="meter_fault" inactive_on_update="false" label="Meter Not Working" value="meter_not_working"/>
+                <element dependent_value="meter_fault" inactive_on_update="false" label="Meter Display Failure" value="meter_display_failure"/>
+                <element dependent_value="meter_fault" inactive_on_update="false" label="Meter Replacement" value="meter_replacement"/>
+                <element dependent_value="power_outage" inactive_on_update="false" label="Other" value="other_power_outage"/>
+                <element dependent_value="power_outage" inactive_on_update="false" label="Partial Power Interruption" value="partial_power_interruption"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Feeder Repair" value="feeder_repair"/>
+                <element dependent_value="power_outage" inactive_on_update="false" label="Voltage Fluctuation" value="voltage_fluctuation"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Transformer Maintenance" value="transformer_maintenance"/>
+                <element dependent_value="new_connection" inactive_on_update="false" label="Commercial Connection" value="commercial_connection"/>
+                <element dependent_value="meter_fault" inactive_on_update="false" label="Incorrect Meter Operation" value="incorrect_meter_operation"/>
+                <element dependent_value="meter_fault" inactive_on_update="false" label="Meter Damaged" value="meter_damaged"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Emergency Equipment Maintenance" value="emergency_equipment_maintenance"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Substation Maintenance" value="substation_maintenance"/>
+                <element dependent_value="power_outage" inactive_on_update="false" label="Intermittent Power Supply" value="intermittent_power_supply"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="Distribution Line Repair" value="distribution_line_repair"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Closed On" max_length="0" name="closed_on" type="glide_date_time"/>
+        <element label="Resolved On" max_length="0" name="resolved_on" type="glide_date_time"/>
         <element label="Short Description" mandatory="true" max_length="160" name="short_description" type="string"/>
         <element label="Dispatch Rejection Reason" max_length="255" name="dispatch_rejection_reason" type="string"/>
+        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
         <element default="true" label="Active" name="active" type="boolean"/>
         <element label="Distribution Line" name="distribution_line" reference="x_1966159_utilit_0_dist_line" reference_qual="active=true" type="reference"/>
+        <element label="Installation Address" max_length="255" name="installation_address" type="string_full_utf8"/>
         <element label="Hazard Details" max_length="255" name="hazard_details" type="string"/>
+        <element label="Consumer" max_length="32" name="consumer" reference="x_1966159_utilit_0_svc_conn" type="reference"/>
         <element label="Requested By" name="requested_by" reference="sys_user" type="reference"/>
         <element default="submitted" label="Status" name="status" type="choice">
             <choice>
@@ -59,24 +93,37 @@
                 <element inactive_on_update="false" label="In Progress" sequence="7" value="in_progress"/>
             </choice>
         </element>
+        <element choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Meter Fault" sequence="2" value="meter_fault"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="4" value="maintenance"/>
+                <element inactive_on_update="false" label="Power Outage" sequence="1" value="power_outage"/>
+                <element inactive_on_update="false" label="New Connection" sequence="3" value="new_connection"/>
+            </choice>
+        </element>
         <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
-        <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_qual="active=true" type="reference"/>
         <index name="index">
             <element name="area"/>
         </index>
         <index name="index2">
-            <element name="dispatch_decided_by"/>
+            <element name="consumer"/>
         </index>
         <index name="index3">
-            <element name="distribution_line"/>
+            <element name="dispatch_decided_by"/>
         </index>
         <index name="index4">
-            <element name="requested_by"/>
+            <element name="distribution_line"/>
         </index>
         <index name="index5">
-            <element name="service_connection"/>
+            <element name="requested_by"/>
         </index>
         <index name="index6">
+            <element name="service_connection"/>
+        </index>
+        <index name="index7">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index8">
             <element name="transformer"/>
         </index>
     </element>

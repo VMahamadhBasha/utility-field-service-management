@@ -11,19 +11,15 @@
         <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Aggregation" max_length="32" name="aggregation" reference="x_1966159_utilit_0_aggregation" type="reference"/>
         <element label="Added On" max_length="40" name="added_on" type="glide_date_time"/>
         <element label="Added By" max_length="32" name="added_by" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="added_by"/>
         </index>
         <index name="index2">
-            <element name="aggregation"/>
-        </index>
-        <index name="index3">
             <element name="request"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

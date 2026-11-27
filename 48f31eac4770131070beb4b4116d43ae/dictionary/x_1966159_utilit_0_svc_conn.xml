@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a1d5b2f3f7e64ed5a3d07f5ae08de452" label="Service Connection" name="x_1966159_utilit_0_svc_conn" type="collection">
-        <element label="Connection Type" name="connection_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Domestic" sequence="1" value="domestic"/>
-                <element inactive_on_update="false" label="Agricultural" sequence="4" value="agricultural"/>
-                <element inactive_on_update="false" label="Commercial" sequence="2" value="commercial"/>
-                <element inactive_on_update="false" label="Industrial" sequence="3" value="industrial"/>
-            </choice>
-        </element>
-        <element label="Consumer Number" mandatory="true" max_length="40" name="consumer_number" type="string" unique="true"/>
-        <element display="true" label="Consumer Name" mandatory="true" max_length="100" name="consumer_name" type="string"/>
         <element label="Connected On" name="connected_on" type="glide_date"/>
-        <element label="Transformer" mandatory="true" name="transformer" reference="x_1966159_utilit_0_transformer" reference_cascade_rule="restrict" reference_qual="active=true" type="reference"/>
+        <element label="Transformer" mandatory="true" name="transformer" reference="x_1966159_utilit_0_transformer" reference_cascade_rule="restrict" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
         <element label="Meter Type" name="meter_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Single Phase" sequence="1" value="single_phase"/>
@@ -22,14 +12,6 @@
         <element label="Service Address" mandatory="true" max_length="255" name="service_address" type="string"/>
         <element label="Last Meter Reading" name="last_meter_reading" type="decimal"/>
         <element label="Meter Number" max_length="40" name="meter_number" type="string" unique="true"/>
-        <element label="Tariff Category" name="tariff_category" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Commercial" sequence="2" value="commercial"/>
-                <element inactive_on_update="false" label="Domestic" sequence="1" value="domestic"/>
-                <element inactive_on_update="false" label="Industrial" sequence="3" value="industrial"/>
-                <element inactive_on_update="false" label="Agricultural" sequence="4" value="agricultural"/>
-            </choice>
-        </element>
         <element default="active" label="Connection Status" name="connection_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Suspended" sequence="3" value="suspended"/>
@@ -37,22 +19,27 @@
                 <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
             </choice>
         </element>
+        <element choice="1" label="Connection Type" max_length="40" name="connection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Industrial Connection" value="industrial_connection"/>
+                <element inactive_on_update="false" label="Agricultural Connection" value="agricultural_connection"/>
+                <element inactive_on_update="false" label="Commercial Connection" value="commercial_connection"/>
+                <element inactive_on_update="false" label="Domestic Connection" value="domestic_connection"/>
+            </choice>
+        </element>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
+        <element label="Consumer" max_length="32" name="consumer" reference="sys_user" type="reference"/>
         <element label="Latitude" name="latitude" type="decimal"/>
         <element default="true" label="Active" name="active" type="boolean"/>
-        <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" reference_qual="area_type=village" type="reference"/>
         <element label="Description" max_length="255" name="description" type="string"/>
         <element label="Sanctioned Load (kW)" name="sanctioned_load_kw" type="decimal"/>
         <index name="index">
-            <element name="area"/>
+            <element name="consumer"/>
         </index>
         <index name="index2" unique="true">
-            <element name="consumer_number"/>
-        </index>
-        <index name="index3" unique="true">
             <element name="meter_number"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="transformer"/>
         </index>
     </element>

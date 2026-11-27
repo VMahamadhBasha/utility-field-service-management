@@ -1,65 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d41ed2ac47b0131070beb4b4116d43fa" label="Aggregation" max_length="40" name="x_1966159_utilit_0_aggregation" type="collection">
-        <element label="Distribution Line" max_length="32" name="distribution_line" reference="x_1966159_utilit_0_dist_line" type="reference"/>
-        <element label="Inspection Notes" max_length="255" name="inspection_notes" type="string_full_utf8"/>
-        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="High" value="2"/>
-                <element inactive_on_update="false" label="Moderate" value="3"/>
-                <element inactive_on_update="false" label="Low" value="4"/>
-                <element inactive_on_update="false" label="Critical" value="1"/>
-            </choice>
-        </element>
-        <element label="Work Order Requested" max_length="40" name="work_order_requested" type="boolean"/>
-        <element label="Inspected By" max_length="32" name="inspected_by" reference="sys_user" type="reference"/>
-        <element label="Assigned Crew" max_length="32" name="assigned_crew" reference="sys_user_group" type="reference"/>
-        <element label="Created On" max_length="40" name="created_on" type="glide_date_time"/>
-        <element label="Membership Frozen" max_length="40" name="membership_frozen" type="boolean"/>
-        <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element choice="1" label="Aggregation Type" max_length="40" name="aggregation_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Power Outage" value="power_outage"/>
-                <element inactive_on_update="false" label="New Connection" value="new_connection"/>
-                <element inactive_on_update="false" label="Meter Fault" value="meter_fault"/>
-            </choice>
-        </element>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
-        <element label="Short Description" max_length="255" name="short_description" type="string_full_utf8"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4b2895b84738531070beb4b4116d4334" extends="task" label="Aggregation" max_length="40" name="x_1966159_utilit_0_aggregation" type="collection">
+        <element label="Accepted By" max_length="32" name="accepted_by" reference="sys_user" type="reference"/>
         <element label="Request Count" max_length="40" name="request_count" type="integer"/>
-        <element label="Priority Reason" max_length="255" name="priority_reason" type="string_full_utf8"/>
-        <element label="Transformer" max_length="32" name="transformer" reference="x_1966159_utilit_0_transformer" type="reference"/>
-        <element label="Inspected On" max_length="40" name="inspected_on" type="glide_date_time"/>
-        <element choice="3" default="open" label="Status" max_length="40" name="status" type="choice">
+        <element label="Distribution Line" max_length="32" name="distribution_line" reference="x_1966159_utilit_0_dist_line" type="reference"/>
+        <element choice="1" label="Crew Response" max_length="40" name="crew_response" type="choice">
             <choice>
-                <element inactive_on_update="false" label="On Hold" value="on_hold"/>
-                <element inactive_on_update="false" label="Open" value="open"/>
-                <element inactive_on_update="false" label="Completed" value="completed"/>
-                <element inactive_on_update="false" label="Closed" value="closed"/>
-                <element inactive_on_update="false" label="Assigned" value="assigned"/>
-                <element inactive_on_update="false" label="Work in Progress" value="work_in_progress"/>
-                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
-                <element inactive_on_update="false" label="Inspection" value="inspection"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Accepted" value="accepted"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
             </choice>
         </element>
-        <index name="index">
-            <element name="area"/>
-        </index>
-        <index name="index2">
-            <element name="assigned_crew"/>
-        </index>
-        <index name="index3">
-            <element name="distribution_line"/>
-        </index>
-        <index name="index4">
-            <element name="inspected_by"/>
-        </index>
-        <index name="index5">
-            <element name="sys_class_name"/>
-        </index>
-        <index name="index6">
-            <element name="transformer"/>
-        </index>
+        <element choice="1" choice_field="status" choice_table="x_1966159_utilit_0_request" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Rejection Reason" max_length="255" name="rejection_reason" type="string_full_utf8"/>
+        <element label="Membership Frozen" max_length="40" name="membership_frozen" type="boolean"/>
+        <element label="Priority Reason" max_length="255" name="priority_reason" type="string_full_utf8"/>
+        <element label="Accepted On" max_length="40" name="accepted_on" type="glide_date_time"/>
+        <element label="Inspected By" max_length="32" name="inspected_by" reference="sys_user" type="reference"/>
+        <element label="Inspected On" max_length="40" name="inspected_on" type="glide_date_time"/>
+        <element choice="1" choice_field="request_type" choice_table="x_1966159_utilit_0_request" label="Aggregation Type" max_length="40" name="aggregation_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Created On" max_length="40" name="created_on" type="glide_date_time"/>
+        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
+        <element label="Work Order Requested" max_length="40" name="work_order_requested" type="boolean"/>
+        <element label="Transformer" max_length="32" name="transformer" reference="x_1966159_utilit_0_transformer" type="reference"/>
+        <element label="Inspection Notes" max_length="255" name="inspection_notes" type="string_full_utf8"/>
     </element>
 </database>

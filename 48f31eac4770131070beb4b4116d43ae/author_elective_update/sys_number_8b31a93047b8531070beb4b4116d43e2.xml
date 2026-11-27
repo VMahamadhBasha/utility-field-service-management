@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1966159_utilit_0_work_order">x_1966159_utilit_0_work_order</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>WOR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 07:10:48</sys_created_on>
+        <sys_id>8b31a93047b8531070beb4b4116d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WOR</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_number_8b31a93047b8531070beb4b4116d43e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 07:10:48</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_number_8b31a93047b8531070beb4b4116d43e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1966159_utilit_0_work_order">x_1966159_utilit_0_work_order</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>WOR</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 07:10:48</sys_created_on><sys_id>8b31a93047b8531070beb4b4116d43e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>WOR</sys_name><sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package><sys_policy/><sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope><sys_update_name>sys_number_8b31a93047b8531070beb4b4116d43e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 07:10:48</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>383068641</payload_hash>
+        <record_name>WOR</record_name>
+        <reverted_from/>
+        <source>c08cdaa047f0131070beb4b4116d4361</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 07:10:49</sys_created_on>
+        <sys_id>9b312d3047b8531070beb4b4116d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20c649a080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 07:10:49</sys_updated_on>
+        <type>Number</type>
+        <update_guid>5b312d3090b85310fb3d21d2a7d7af6c</update_guid>
+        <update_guid_history>5b312d3090b85310fb3d21d2a7d7af6c:383068641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 07:12:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>1c7b3d1984f44080845125b2644a5a10</sys_id>
+        <sys_metadata>8b31a93047b8531070beb4b4116d43e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WOR</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="">9821e53047b8531070beb4b4116d437d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_number_8b31a93047b8531070beb4b4116d43e2</sys_update_name>
+        <sys_update_version display_value="sys_number_8b31a93047b8531070beb4b4116d43e2">9b312d3047b8531070beb4b4116d436d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 07:12:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

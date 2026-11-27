@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="258663994734971070beb4b4116d4301" sys_domain="global" table="x_1966159_utilit_0_request" version="3" view="request_form">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:10:07</sys_created_on>
+            <sys_id>e98663994734971070beb4b4116d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:10:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:10:07</sys_created_on>
+            <sys_id>a58663994734971070beb4b4116d436b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:10:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:10:07</sys_created_on>
+            <sys_id>618663994734971070beb4b4116d436c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:10:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>req_subtype</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:10:07</sys_created_on>
+            <sys_id>2d8663994734971070beb4b4116d436c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:10:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1966159_utilit_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 06:10:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>258663994734971070beb4b4116d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1966159_utilit_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_ui_section_258663994734971070beb4b4116d4301</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 06:10:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Request Form" name="request_form">e49fdef44770931070beb4b4116d43f5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_section_258663994734971070beb4b4116d4301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="258663994734971070beb4b4116d4301" sys_domain="global" table="x_1966159_utilit_0_request" version="3" view="request_form"><sys_ui_element action="INSERT_OR_UPDATE"><element>request_type</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-26 06:10:07</sys_created_on><sys_id>e98663994734971070beb4b4116d436a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-26 06:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-26 06:10:07</sys_created_on><sys_id>a58663994734971070beb4b4116d436b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-26 06:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-26 06:10:07</sys_created_on><sys_id>618663994734971070beb4b4116d436c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-26 06:10:07</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>req_subtype</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-26 06:10:07</sys_created_on><sys_id>2d8663994734971070beb4b4116d436c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">258663994734971070beb4b4116d4301</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-26 06:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1966159_utilit_0_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-26 06:10:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>258663994734971070beb4b4116d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1966159_utilit_0_request</sys_name><sys_overrides/><sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package><sys_policy/><sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope><sys_update_name>sys_ui_section_258663994734971070beb4b4116d4301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-26 06:10:06</sys_updated_on><sys_user/><title>false</title><view display_value="Request Form" name="request_form">e49fdef44770931070beb4b4116d43f5</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-226581836</payload_hash>
+        <record_name>Request</record_name>
+        <reverted_from/>
+        <source>c08cdaa047f0131070beb4b4116d4361</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-26 06:10:07</sys_created_on>
+        <sys_id>a58663994734971070beb4b4116d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a21679c0780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-26 06:10:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>698663993f3497109c360d98ae2da26f</update_guid>
+        <update_guid_history>698663993f3497109c360d98ae2da26f:-226581836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-26 06:22:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5b2d5058a9b049a8b7010e9e2b972591</sys_id>
+        <sys_metadata>258663994734971070beb4b4116d4301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="Request">e7c836de02c04dbb99e0e4473c95bf7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_section_258663994734971070beb4b4116d4301</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_258663994734971070beb4b4116d4301">a58663994734971070beb4b4116d4370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-26 06:22:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

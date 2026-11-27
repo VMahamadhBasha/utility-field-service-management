@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="test2" table="x_1966159_utilit_0_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>test2</element>
+            <name>x_1966159_utilit_0_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:10:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>test2</sys_name>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_choice_x_1966159_utilit_0_request_test2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:10:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>test2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:10:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:11:49</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>test2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1111</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:10:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:12:31</sys_updated_on>
+            <value>11111</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>2</dependent_value>
+            <element>test2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>222</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:10:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:12:29</sys_updated_on>
+            <value>222</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>2</dependent_value>
+            <element>test2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>22222</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-24 15:10:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-24 15:12:33</sys_updated_on>
+            <value>22222</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

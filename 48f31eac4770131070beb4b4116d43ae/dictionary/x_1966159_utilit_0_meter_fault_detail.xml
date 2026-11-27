@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="93e526a44734131070beb4b4116d43e3" label="Meter Fault Detail" max_length="40" name="x_1966159_utilit_0_meter_fault_detail" type="collection">
         <element label="Observed Meter Reading" max_length="20" name="observed_meter_reading" type="decimal"/>
+        <element label="Fault Symptoms" max_length="255" name="fault_symptoms" type="string_full_utf8"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
+        <element label="Meter Error Code" max_length="255" name="meter_error_code" type="string_full_utf8"/>
+        <element choice="1" label="Meter Condition" max_length="40" name="meter_condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Broken Display" value="broken_display"/>
+                <element inactive_on_update="false" label="Water Damaged" value="water_damaged"/>
+                <element inactive_on_update="false" label="Unknown" value="unknown"/>
+                <element inactive_on_update="false" label="Physically Damaged" value="physically_damaged"/>
+                <element inactive_on_update="false" label="Exposed Wiring" value="exposed_wiring"/>
+                <element inactive_on_update="false" label="Burnt" value="burnt"/>
+                <element inactive_on_update="false" label="Normal" value="normal"/>
+                <element inactive_on_update="false" label="Loose Connections" value="loose_connections"/>
+            </choice>
+        </element>
         <element label="Meter Display Details" max_length="255" name="meter_display_details" type="string_full_utf8"/>
         <element label="Last Working Date" max_length="40" name="last_working_date" type="glide_date"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element choice="1" label="Meter Fault Type" max_length="40" name="meter_fault_type" type="choice">
+        <element choice="1" label="Req Subtype" max_length="40" name="req_subtype" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Other" value="other"/>
-                <element inactive_on_update="false" label="Display Error" value="display_error"/>
-                <element inactive_on_update="false" label="Incorrect Reading" value="incorrect_reading"/>
                 <element inactive_on_update="false" label="Meter Not Working" value="meter_not_working"/>
-                <element inactive_on_update="false" label="Meter Damage" value="meter_damage"/>
+                <element inactive_on_update="false" label="Meter Damaged" value="meter_damaged"/>
+                <element inactive_on_update="false" label="Other" value="other_meter_fault"/>
+                <element inactive_on_update="false" label="Meter Display Failure" value="meter_display_failure"/>
+                <element inactive_on_update="false" label="Incorrect Meter Operation" value="incorrect_meter_operation"/>
+                <element inactive_on_update="false" label="Meter Replacement" value="meter_replacement"/>
             </choice>
         </element>
         <index name="index">

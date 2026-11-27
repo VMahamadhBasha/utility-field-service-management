@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Resolution" section_id="cc157999d2e847598e24a15faf977f67" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>df9c00c0f2884b518c5dbded50e09c6f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>resolved_on</element>
+      <position>1</position>
+      <sys_id>fcace89deccd48c786ed6cb65e1ae140</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>2</position>
+      <sys_id>ca42d7c7e6ec402c8ab93650f4808524</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>closed_on</element>
+      <position>3</position>
+      <sys_id>5323dd3db6994318968a46bf78a0ad47</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>4</position>
+      <sys_id>613d4d0ee02d4d48b2933a8aa4c703c8</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE" apply_defaults="true">
+      <caption>Resolution</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>cc157999d2e847598e24a15faf977f67</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</application>
+        <file_path/>
+        <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
+        <instance_name>dev395670</instance_name>
+        <merge_base/>
+        <name>sys_ui_section_cc157999d2e847598e24a15faf977f67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Resolution" section_id="cc157999d2e847598e24a15faf977f67" sys_domain="global" table="x_1966159_utilit_0_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>df9c00c0f2884b518c5dbded50e09c6f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>resolved_on</element>
+      <position>1</position>
+      <sys_id>fcace89deccd48c786ed6cb65e1ae140</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>2</position>
+      <sys_id>ca42d7c7e6ec402c8ab93650f4808524</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>closed_on</element>
+      <position>3</position>
+      <sys_id>5323dd3db6994318968a46bf78a0ad47</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>4</position>
+      <sys_id>613d4d0ee02d4d48b2933a8aa4c703c8</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Resolution</caption>
+      <header>false</header>
+      <name>x_1966159_utilit_0_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>cc157999d2e847598e24a15faf977f67</sys_id>
+      <sys_scope display_value="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1400649107</payload_hash>
+        <record_name>Request</record_name>
+        <reverted_from/>
+        <source>546c5a6047f0131070beb4b4116d43c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 16:51:09</sys_created_on>
+        <sys_id>ee7c5aa047f0131070beb4b4116d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a209518ea70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 16:51:09</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ee7c5aa0ddf01310de5f70b9fad4bb91</update_guid>
+        <update_guid_history>ee7c5aa0ddf01310de5f70b9fad4bb91:1302872180</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 11:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02a847246fcf4b0c81338e0fe409ef90</sys_id>
+        <sys_metadata>cc157999d2e847598e24a15faf977f67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolution</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_parent display_value="Request">e7c836de02c04dbb99e0e4473c95bf7c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_scope_delete display_value="">74199debbf1748c0b81ea6f2446ec840</sys_scope_delete>
+        <sys_update_name>sys_ui_section_cc157999d2e847598e24a15faf977f67</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_cc157999d2e847598e24a15faf977f67">ee7c5aa047f0131070beb4b4116d4392</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 11:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

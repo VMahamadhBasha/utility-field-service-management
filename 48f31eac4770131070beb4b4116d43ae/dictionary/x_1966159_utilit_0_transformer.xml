@@ -18,9 +18,9 @@
         </element>
         <element label="Serves Critical Facility" name="serves_critical_facility" type="boolean"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
-        <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" reference_qual="area_type=village" type="reference"/>
         <element label="Longitude" name="longitude" type="decimal"/>
         <element label="Latitude" name="latitude" type="decimal"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Connection Count" name="connection_count" read_only="true" read_only_option="instance_configured" type="integer"/>
         <element label="Phase Type" name="phase_type" type="choice">
             <choice>
@@ -30,10 +30,10 @@
         </element>
         <element label="Critical Facility Note" max_length="200" name="critical_facility_note" type="string"/>
         <index name="index">
-            <element name="area"/>
+            <element name="feeder"/>
         </index>
         <index name="index2">
-            <element name="feeder"/>
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>

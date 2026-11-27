@@ -20,76 +20,76 @@
             <element>connection_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Domestic</label>
+            <label>Agricultural Connection</label>
             <language>en</language>
             <name>x_1966159_utilit_0_svc_conn</name>
-            <sequence>1</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:04</sys_created_on>
+            <sys_created_on>2026-11-26 05:46:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:04</sys_updated_on>
-            <value>domestic</value>
+            <sys_updated_on>2026-11-26 05:46:18</sys_updated_on>
+            <value>agricultural_connection</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>connection_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Commercial</label>
+            <label>Commercial Connection</label>
             <language>en</language>
             <name>x_1966159_utilit_0_svc_conn</name>
-            <sequence>2</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:04</sys_created_on>
+            <sys_created_on>2026-11-26 05:46:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:04</sys_updated_on>
-            <value>commercial</value>
+            <sys_updated_on>2026-11-26 05:47:05</sys_updated_on>
+            <value>commercial_connection</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>connection_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Industrial</label>
+            <label>Domestic Connection</label>
             <language>en</language>
             <name>x_1966159_utilit_0_svc_conn</name>
-            <sequence>3</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:04</sys_created_on>
+            <sys_created_on>2026-11-26 05:46:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:04</sys_updated_on>
-            <value>industrial</value>
+            <sys_updated_on>2026-11-26 05:46:32</sys_updated_on>
+            <value>domestic_connection</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>connection_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Agricultural</label>
+            <label>Industrial Connection</label>
             <language>en</language>
             <name>x_1966159_utilit_0_svc_conn</name>
-            <sequence>4</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:04</sys_created_on>
+            <sys_created_on>2026-11-26 05:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:04</sys_updated_on>
-            <value>agricultural</value>
+            <sys_updated_on>2026-11-26 05:46:49</sys_updated_on>
+            <value>industrial_connection</value>
         </sys_choice>
     </sys_choice>
 </record_update>

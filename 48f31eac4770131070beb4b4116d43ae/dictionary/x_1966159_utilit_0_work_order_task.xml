@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0e91e97047b8531070beb4b4116d43d9" extends="task" label="Work Order Task" max_length="40" name="x_1966159_utilit_0_work_order_task" type="collection">
+        <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
+        <element label="Maintenance Detail" max_length="32" name="maintenance_detail" reference="x_1966159_utilit_0_maintenance_detail" type="reference"/>
+        <element label="New Connection Detail" max_length="32" name="new_connection_detail" reference="x_1966159_utilit_0_new_connection_detail" type="reference"/>
+        <element label="Meter Fault Detail" max_length="32" name="meter_fault_detail" reference="x_1966159_utilit_0_meter_fault_detail" type="reference"/>
+        <element label="Power Outage Detail" max_length="32" name="power_outage_detail" reference="x_1966159_utilit_0_power_outage_detail" type="reference"/>
+        <element label="Work Order" max_length="32" name="work_order" reference="x_1966159_utilit_0_work_order" type="reference"/>
+        <element label="Aggregation" max_length="32" name="aggregation" reference="x_1966159_utilit_0_aggregation" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ac94f8e147bc971070beb4b4116d43ba" sys_domain="global" table="x_1966159_utilit_0_meter_fault_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 11:51:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c94f8e147bc971070beb4b4116d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_meter_fault_details" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">ac94f8e147bc971070beb4b4116d43ba</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">ac94f8e147bc971070beb4b4116d4345</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 11:51:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 11:51:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a094f8e147bc971070beb4b4116d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_meter_fault_details" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">ac94f8e147bc971070beb4b4116d43ba</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 11:51:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 11:51:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac94f8e147bc971070beb4b4116d43c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_meter_fault_details" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">ac94f8e147bc971070beb4b4116d43ba</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6c94f8e147bc971070beb4b4116d43b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 11:51:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1966159_utilit_0_meter_fault_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-26 11:51:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac94f8e147bc971070beb4b4116d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1966159_utilit_0_meter_fault_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ac94f8e147bc971070beb4b4116d43ba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-26 11:51:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

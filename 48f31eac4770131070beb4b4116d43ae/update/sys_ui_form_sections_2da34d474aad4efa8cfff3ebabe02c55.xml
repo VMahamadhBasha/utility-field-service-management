@@ -17,86 +17,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:06</sys_created_on>
+            <sys_created_on>2026-11-24 11:55:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0cf62da4e50b42d480f7b5869b207756</sys_id>
+            <sys_id>8152e67c4770931070beb4b4116d43d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section caption="Customer Information" display_value="Customer Information" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">46e25dc396b849928aed4509d600d806</sys_ui_section>
+            <sys_ui_section caption="Problem details" display_value="Problem details" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">f452a67c4770931070beb4b4116d43be</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
+            <sys_updated_on>2026-11-24 11:55:13</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:06</sys_created_on>
+            <sys_created_on>2026-11-26 06:04:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9a5fd9f2ef3842318c132ab77664cfeb</sys_id>
+            <sys_id>a5556bd54734971070beb4b4116d4319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section caption="Asset References" display_value="Asset References" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">f8db55bcdd934bd4a484f241decc7ad5</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">61556bd54734971070beb4b4116d4306</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>838e2e0c918d4a838eda43dfe407a3ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section caption="Safety" display_value="Safety" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">8c651f0a2f694bb6911742826375c953</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6fe1a7f2027b4f99acacb73a911bc79f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section caption="Dispatch" display_value="Dispatch" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3c43439f3f9444caae5b5be27443558f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1e186af01d8f4cd28f6eef7173fad110</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section caption="AI Classification" display_value="AI Classification" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">3cff003753b04b6eb2b460ddd555f289</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 16:51:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8063a046b7a44303bcec3d427f2513ad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">2da34d474aad4efa8cfff3ebabe02c55</sys_ui_form>
-            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1966159_utilit_0_request" sys_domain="global" view="Default view">cc157999d2e847598e24a15faf977f67</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 16:51:06</sys_updated_on>
+            <sys_updated_on>2026-11-26 06:04:56</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1966159_utilit_0_request</name>
