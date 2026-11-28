@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1966159_utilit_0.AggregationManagementUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AggregationManagementUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var AggregationManagementUtils = Class.create();
+AggregationManagementUtils.prototype = {
+    initialize: function() {
+    },
+
+    newConnectionRequestAggregations: function(request) {
+		var requestsysId = request.getValue('sys_id');
+		var areaSysId = request.getValue('area');
+		var request_type= request.getValue('request_type');
+		var request_subtype =request.getValue('request_subtype');
+		var description=request.getValue('description');
+		var short_description=request.getValue('short_description');
+		var aggregationSysId ='';
+		//var requested_by=request.getValue('requested_by');
+
+		var aggregation =new GlideRecord(
+			'x_1966159_utilit_0_aggregations'
+        );
+		aggregation.addQuery('aggregation_type', 'new_connection');
+        aggregation.addQuery('area', areaSysId);
+        aggregation.addQuery('active', true);
+
+        aggregation.query();
+		if (aggregation.next()){
+			aggregationSysId = aggregation.getValue('sys_id');
+		}     
+        else {
+			aggregation.initialize();
+			//aggregation.setValue('aggregation_type',request_type);
+			aggregation.setValue('aggregation_type',request_type);
+			aggregation.setValue('aggregation_request_subtype',request_subtype);
+			aggregation.setValue('area',areaSysId);
+			aggregationSysId = aggregation.insert();
+
+
+        }
+		//aggrgation member record creation 
+		var aggregationMember =new GlideRecord('x_1966159_utilit_0_aggregation_members');
+		aggregationMember.initialize();
+		aggregationMember.setValue('aggregation', aggregationSysId);
+		aggregationMember.setValue('new_connection_request',requestsysId);
+		aggregationMember.insert();
+	var updateAggregation = new GlideRecord(
+		'x_1966159_utilit_0_aggregations'
+		);
+	updateAggregation.get(aggregationSysId);
+	var totalRequests = parseInt(updateAggregation.getValue('total_requests'), 10);
+	totalRequests = totalRequests + 1;
+	updateAggregation.setValue('total_requests', totalRequests);
+	updateAggregation.update();
+
+    },
+
+    type: 'AggregationManagementUtils'
+}
+;]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 07:35:23</sys_created_on>
+        <sys_id>ddf91902477c9b1070beb4b4116d4357</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AggregationManagementUtils</sys_name>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_script_include_ddf91902477c9b1070beb4b4116d4357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 07:48:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

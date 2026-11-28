@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sla_delay_reason" label="SLA Delay Reason" language="en" table="x_1966159_utilit_0_aggregations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sla_delay_reason</element>
+            <help/>
+            <hint/>
+            <label>SLA Delay Reason</label>
+            <language>en</language>
+            <name>x_1966159_utilit_0_aggregations</name>
+            <plural>SLA Delay Reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-27 16:52:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLA Delay Reason</sys_name>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_documentation_x_1966159_utilit_0_aggregations_sla_delay_reason_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-27 16:52:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

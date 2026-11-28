@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4988000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>30000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_aggregation_member</internal_name>
+        <label_cache>[{"name":"subflow.request_table","label":"Input➛Request Table","type":"string","base_type":"string","usedInstances":{"ebd8b011-6919-4d97-a26c-e8f4d702a34a":["condition"],"9380d689-cff9-4cf6-b7be-d825d2e85996":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a0689d82-2f37-435c-92da-a020df653f17"}},{"name":"subflow.request_record_sys_id","label":"Input➛Request Record Sys ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"718700fd-ff19-4d47-958f-5eceec1bfd87":["new_connection_request"],"049f6e81-9da8-4401-8c03-d5c6d053ceec":["values"],"4c42192a-b538-4a64-985e-ee310ebae929":["values","meter_fault_request"],"c5021105-44fe-46f4-9c84-1863d6ae71e7":["power_outage_request"],"d43d6f18-0698-4f63-bbb5-0f1038ad5c85":["maintenance_request"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"86ffec0c-fc0c-49a4-889d-a5f4546b9a01","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.aggregations_sys_id","label":"Input➛Aggregations Sys ID","reference":"","reference_display":"","type":"GUID","base_type":"GUID","column_name":"","usedInstances":{"718700fd-ff19-4d47-958f-5eceec1bfd87":["aggregation"],"049f6e81-9da8-4401-8c03-d5c6d053ceec":["values"],"4c42192a-b538-4a64-985e-ee310ebae929":["values","aggregation"],"d43d6f18-0698-4f63-bbb5-0f1038ad5c85":["values"],"c5021105-44fe-46f4-9c84-1863d6ae71e7":["values"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"aaa6793c-3574-4f37-bbeb-d080cd2f6494"}}]</label_cache>
+        <master_snapshot>8ee1f5ce47fc9b1070beb4b4116d435a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Aggregation Member</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:20:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d80e94e477c9b1070beb4b4116d4310</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Create Aggregation Member</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name>sys_hub_flow_8d80e94e477c9b1070beb4b4116d4310</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>238331c24730db1070beb4b4116d4307</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8d80e94e477c9b1070beb4b4116d4310^sys_idNOT INc980e94e477c9b1070beb4b4116d4311"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8d80e94e477c9b1070beb4b4116d4310</id>
+        <name>Create Aggregation Member</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:20:04</sys_created_on>
+        <sys_id>c980e94e477c9b1070beb4b4116d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 04:20:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c980e94e477c9b1070beb4b4116d4311"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8d80e94e477c9b1070beb4b4116d4310^sys_idNOT IN4002a50247bc9b1070beb4b4116d43c1,72823d024730db1070beb4b4116d4306,c802a50247bc9b1070beb4b4116d43ae"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=86ffec0c-fc0c-49a4-889d-a5f4546b9a01</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_record_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Request Record Sys ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</model>
+        <model_id>8d80e94e477c9b1070beb4b4116d4310</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:26:33</sys_created_on>
+        <sys_id>4002a50247bc9b1070beb4b4116d43c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4002a50247bc9b1070beb4b4116d43c1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=aaa6793c-3574-4f37-bbeb-d080cd2f6494</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>aggregations_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Aggregations Sys ID</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</model>
+        <model_id>8d80e94e477c9b1070beb4b4116d4310</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:38:50</sys_created_on>
+        <sys_id>72823d024730db1070beb4b4116d4306</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=72823d024730db1070beb4b4116d4306"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0689d82-2f37-435c-92da-a020df653f17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Request Table</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</model>
+        <model_id>8d80e94e477c9b1070beb4b4116d4310</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:26:33</sys_created_on>
+        <sys_id>c802a50247bc9b1070beb4b4116d43ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c802a50247bc9b1070beb4b4116d43ae"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8d80e94e477c9b1070beb4b4116d4310^sys_idNOT IN3202290247bc9b1070beb4b4116d434b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>295ed108-238d-45e1-a2b3-a8e903274789</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:26:44</sys_created_on>
+        <sys_id>3202290247bc9b1070beb4b4116d434b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <ui_id>718700fd-ff19-4d47-958f-5eceec1bfd87</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUW2vbMBT+K0HPxthxa5q8FUbe2sIufek6IVvHjkCWVUnOZSH/fUeWkqbZAmWMjeUp+s7t+87FTzsiOJmTMofsepaXdZEXxTTLpjdXeVUWVT7lBQO4IglRrAP0dKySQMdHQlZMDh7c0HxWlvn1jA5OSOFoRlnbGmiZE72iHXQVGIsBXFgt2fYxxt2+Ok3ugtNk8kVz5oCjd70UkhtQZP70nBDNDFZ1YMh8d2ZyWw1UsgokJv3sGU7uA8P3qnsTfEGtr3KO9YZ7QllCYONAceQ9b5i0kJCOKRTSmy2ZOzMgYIDxByW3R4+lUA4TYpolSB3+dWxjxXesc5P5iAZQZA3BdnzS2McA18te1PCgfRsDMlKMxl4OnboPcvwEoGGDdIcJIDJYzAfak/d0Irfm07JffzwUXAg16oxG2ddMHl/MOSOqwYH1kwEJHSaiHdNaqJZq06/EGIxcurSV+Egb2a+xqBWtSlntiafYK5YuEP8wwo/MCK/iDtNg8H5UT18GXzfoiIxpEI0OtjZCu1tMt4JIbp8cFpxDNru4Ann1OvJxp+3Jcp9s8tchywq+29mh8grSE5Oldmup4Pv9NwVrWvdKwSiMGnjBhO48NsJornGJjtE/H8lfr/+bZwcdsnYwCbyTd/f9kGAhQHL7i0Ec7i4WoKtYIN5e/udvLy+z8fdvLjAw/s8O8OSreOEUn38Ash1XPm0GAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3202290247bc9b1070beb4b4116d434b"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8d80e94e477c9b1070beb4b4116d4310^sys_idNOT IN19b0b14e47fc9b1070beb4b4116d4334,7eb0b14e47fc9b1070beb4b4116d4378,9940710e47fc9b1070beb4b4116d43ec,b5a4694647bc9b1070beb4b4116d43aa,d254214647bc9b1070beb4b4116d4342"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b1e1f5ce47fc9b1070beb4b4116d4305</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>295ed108-238d-45e1-a2b3-a8e903274789</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:30:49</sys_created_on>
+        <sys_id>19b0b14e47fc9b1070beb4b4116d4334</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <ui_id>815f8434-3e75-4d5e-ada7-a1a139ebaa29</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">39e1f5ce47fc9b1070beb4b4116d430b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>ebd8b011-6919-4d97-a26c-e8f4d702a34a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:30:54</sys_created_on>
+        <sys_id>7eb0b14e47fc9b1070beb4b4116d4378</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <ui_id>2e731fbf-c396-4d53-a5d3-ff76e6944542</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b1e1f5ce47fc9b1070beb4b4116d430e</block>
+        <comment/>
+        <connected_to>295ed108-238d-45e1-a2b3-a8e903274789</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:28:54</sys_created_on>
+        <sys_id>9940710e47fc9b1070beb4b4116d43ec</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <ui_id>9380d689-cff9-4cf6-b7be-d825d2e85996</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V24rbMBD9leBnY2ynCU3eli0LhbYL3WVf2kXI0jgRlSWtLrk05N87suxsaDf0QulT36wzmjnnjGbwIdPBm+Ddvb5yTqxUtvz0mGdCRQy/D5miHWTLjGnFhRdakR7Isw2VIQZEO/G0kTARbmL0FuwEK9IVTDh4KqTDq1w4I+n+4dcz2FpIbmFQY6hFTg82Wx6+C/m9ASJpAxIL33kr1ArTBcdTW9K2WrCKTev5tC7L+vWrqplPm6rmUwq0xntj4vVobvKuR/KLriMf4m5k0pZHWVWZZ7DzoDggdUulgzzrqOLUa7s/IRYov1XyGVgL5bEcFlqDNOmrozsnviJLPZvFlBbQLYMUPB3J0NQEs7UWDG5NlJqQvsNDUMvQqQ/JUXwOaGmQfnwORILDemCi/KhnENferfX240h4I1RvdQhKzag8najHhjTBg4tPBBI6LEQ6agy2iRirN6JPRi1dsZJ4KFqpt0gaZ66gLAovsFu0uEH8TQ8/UCuii/dYBpOTzIY6wUg/n1jOW7Rw7NtCnkIUlAwOVkjqBl5wzArjr5BnA4PqY/7jcJ/N9eHgQhNFFhaeAjhP+pYej59DWU75jlSL+byaLUjwQgpPStLPMkmzTC5O/1+r+w92pHppR17YjsuLUf9kMeID/vZelGX5fzHOF0M4kgZ88NaT//FePMYlSAwuTRAHJhwKuY/Y2/HfEAN7HAXBzqGttl+ihWfs+A3xa2WLZQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f5e1f5ce47fc9b1070beb4b4116d4308</block>
+        <comment/>
+        <connected_to>295ed108-238d-45e1-a2b3-a8e903274789</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:38:08</sys_created_on>
+        <sys_id>b5a4694647bc9b1070beb4b4116d43aa</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <ui_id>ebd8b011-6919-4d97-a26c-e8f4d702a34a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V24rbMBD9FePnYGynCU3eli0LhbYL3WVf2kWM5XEiKkteXXJpyL93JNvZ0G7ohdKnvllnNDPnjObgQ6q967yz9/rKWrFS6fLT4yQVKmD0fUgVtJguU65VLZzQikVgkm5A+hAQTeKgkpgIm7To0CQNeOmSpEYHQlq6WgvbSdg//HoGXwtZGxzYdGAgXkyXh+9Cbt8hk1ChpMJ3zgi1onRR06nJoSkWvODTcj4t87x8/aqo5tOqKOspIJR0b0y8HsUl7yIyuag69CPcjp20qQOtIp+kuHOoaqTWDUiLk7QFVYPTZn9CDEJ9q+QzsBbKUTkqtEbZ9V8t7Kz4Sl3K2SykNEhqOfbB05ENQ+1hvtaC420XqPZInPAQ1NK36kOvKDwHxnmPz0GIt1QPu0A/8BnINXdrvf04NrwRKkodglJzkKcTOBpI5R3a8EQosaVCrIWuozGxzuiNiMnEpc1Wkg5ZI/WWmoady4AH4hlNC7Ibwt9E+AGMCCreUxlK7mlWYAVncT+pnDMk4RjHwp58INQLHKSwfhp0wXIjOndFfTY4sD5Oflzus70+HKyvAsnM4JNH61gc6fH42ef5tN6xYjGfF7MF805I4VjO4oqyOFt2cfn/Vtl/4JDiJYe84I3Ltih/YovwfL/tijzP/9vi3BbCsn69B22x+R+74jFYoO9g+w2qkQtLRO4D9nb8M4TAnlZB8HNoq82XIOEZO34DwC04hmMGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7de1f5ce47fc9b1070beb4b4116d4300</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:36:49</sys_created_on>
+        <sys_id>d254214647bc9b1070beb4b4116d4342</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:12</sys_updated_on>
+        <ui_id>295ed108-238d-45e1-a2b3-a8e903274789</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V24rbMBD9FeNnY3xZhyZvS8tCoe1Cd9mXdhGyNE5EZcmrSy4N+feOfElCm1C27GPfrDOamXNGc/A+1t513tlHfWutWKp48e05iYUKGH7vY0VbiBcx04oLJ7QiPZDEayp9CIgmcrSWEAkbKdhEeFEBCzcjDo4KafEyF7aTdPf0mhy2EpIbGBl11GBfByZe7H8LuV0HRNIaJJZ+cEaoJaYLjqcmo00+Zzkri1lZZFnx7iavZ2WdF7ykQEu8NyW+nwRGn3okuao89EPcTp204YFWniUxbB0oDti6odJCErdUceq02R0RA5TfK3kCVkI5LIeFViC74aulWyt+YpeiqkJKA6iWwRA8Hsk41gFmKy0Y3HeB6oD0Mx6DWvpWfRkUhQeBhnrppgdBxFusB12gH/iM5JqHld58nRreCdVLHYNSMyqPJ+pwILV3YMMTgYQWC5GWdh2OiXRGr0WfjFzadCnxkDZSb7Bp2LuU9u+f4rRoeof4hx5+okYEFZ+xDCYPNGtqBSP9jmI5Z1DCoR8LefGB0CBwlEKGaeAFy4zo3C32WcPI+pD8ueBnu73fW18HkqmBFw/WkX6kh8N3n2Ul35J8Ppvl1Zx4J6RwJCO4zeS0zeSqA96w8lv4ZE6rpsqz6rJPbmaXfHLBIdfNUfzFHOERX+2NLMv+m+PcHMKSYclHbX3zf/bGczDC0MEOG8SBCYtEHgP2cfpHhMAOV0Gwc2ijzY8g4YQdfgF+WtwWbQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>aggregations_sys_id</element>
+        <help/>
+        <hint/>
+        <label>Aggregations Sys ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:38:50</sys_created_on>
+        <sys_id>3e823d024730db1070beb4b4116d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:38:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_record_sys_id</element>
+        <help/>
+        <hint/>
+        <label>Request Record Sys ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:26:33</sys_created_on>
+        <sys_id>8c02a50247bc9b1070beb4b4116d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 04:26:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_table</element>
+        <help/>
+        <hint/>
+        <label>Request Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 04:26:33</sys_created_on>
+        <sys_id>cc02a50247bc9b1070beb4b4116d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 04:26:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>30000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_aggregation_member</internal_name>
+        <label_cache>[{"name":"subflow.request_table","label":"Input➛Request Table","type":"string","base_type":"string","usedInstances":{"ebd8b011-6919-4d97-a26c-e8f4d702a34a":["condition"],"9380d689-cff9-4cf6-b7be-d825d2e85996":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a0689d82-2f37-435c-92da-a020df653f17"}},{"name":"subflow.request_record_sys_id","label":"Input➛Request Record Sys ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"718700fd-ff19-4d47-958f-5eceec1bfd87":["new_connection_request"],"049f6e81-9da8-4401-8c03-d5c6d053ceec":["values"],"4c42192a-b538-4a64-985e-ee310ebae929":["values","meter_fault_request"],"c5021105-44fe-46f4-9c84-1863d6ae71e7":["power_outage_request"],"d43d6f18-0698-4f63-bbb5-0f1038ad5c85":["maintenance_request"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"86ffec0c-fc0c-49a4-889d-a5f4546b9a01","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.aggregations_sys_id","label":"Input➛Aggregations Sys ID","reference":"","reference_display":"","type":"GUID","base_type":"GUID","column_name":"","usedInstances":{"718700fd-ff19-4d47-958f-5eceec1bfd87":["aggregation"],"049f6e81-9da8-4401-8c03-d5c6d053ceec":["values"],"4c42192a-b538-4a64-985e-ee310ebae929":["values","aggregation"],"d43d6f18-0698-4f63-bbb5-0f1038ad5c85":["values"],"c5021105-44fe-46f4-9c84-1863d6ae71e7":["values"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"aaa6793c-3574-4f37-bbeb-d080cd2f6494"}}]</label_cache>
+        <master>true</master>
+        <name>Create Aggregation Member</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ee1f5ce47fc9b1070beb4b4116d435a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8ee1f5ce47fc9b1070beb4b4116d435a^sys_idNOT IN4ee1f5ce47fc9b1070beb4b4116d435b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8ee1f5ce47fc9b1070beb4b4116d435a</id>
+        <name>Create Aggregation Member</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>4ee1f5ce47fc9b1070beb4b4116d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4ee1f5ce47fc9b1070beb4b4116d435b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8ee1f5ce47fc9b1070beb4b4116d435a^sys_idNOT IN02e1f5ce47fc9b1070beb4b4116d4374,0b83fd824730db1070beb4b4116d433d,cae1f5ce47fc9b1070beb4b4116d437f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0689d82-2f37-435c-92da-a020df653f17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Request Table</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</model>
+        <model_id>8ee1f5ce47fc9b1070beb4b4116d435a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>02e1f5ce47fc9b1070beb4b4116d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02e1f5ce47fc9b1070beb4b4116d4374"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=aaa6793c-3574-4f37-bbeb-d080cd2f6494</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>aggregations_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Aggregations Sys ID</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</model>
+        <model_id>8ee1f5ce47fc9b1070beb4b4116d435a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:43:13</sys_created_on>
+        <sys_id>0b83fd824730db1070beb4b4116d433d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0b83fd824730db1070beb4b4116d433d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=86ffec0c-fc0c-49a4-889d-a5f4546b9a01</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_record_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Request Record Sys ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</model>
+        <model_id>8ee1f5ce47fc9b1070beb4b4116d435a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>cae1f5ce47fc9b1070beb4b4116d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cae1f5ce47fc9b1070beb4b4116d437f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8ee1f5ce47fc9b1070beb4b4116d435a^sys_idNOT IN46e1f5ce47fc9b1070beb4b4116d43a1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>295ed108-238d-45e1-a2b3-a8e903274789</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>46e1f5ce47fc9b1070beb4b4116d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:03</sys_updated_on>
+        <ui_id>718700fd-ff19-4d47-958f-5eceec1bfd87</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUXW/aMBT9K8jPEUpIGxXeqlY8ra20brx0neXEN8GS46S2w8cQ/33XsYGIFW2TpknlCd97z/U5Bx9edkRwMiNZAvH1NMmKNEnTSRxPbq6SPEvzZMJTBnBFIqJYDThpWS6B9oeIrJjsXHFDk2mWJddT2lkhhaUxZVWloWJWNIrWUOegDQK4MK1k20XA3Z6GRg9+aDT62nJmgeN0sRSSa1Bk9vIakZZpvNWCJrPdWetPNUiWg8TRL07EBU12275b+zTEjh59o9Hc8YkjAhsLiiPtWcmkgYjUTKGORm/JzOoOCxoYf1Jye5xYCmVxIa5Zgmz9t5ptjPiBBG5ihygBNRbge8cjDTb6cnnPLHvGOwrb6TBaLBtRgPHucChZJ+3dsOYHnlpnvYf0ggO6kV2tHr055Ljg8KthpTNIAlqn2GkIgsrnZbP+fGA5F6o3JzRlUzB5PDFrtcg76/jsCEiocRGtWdsKVdFWNyvRg5FLPa4kHsalbNZ4qRGVGrPCER+jwWw8x/p9X14wLZyKB1yD4H1EzNbcSWbMSQuaSN86x8QrCxqot8FBCi1ae4sXrCDQ3UeHmHCIpxefWJKfnlSfDDOIyCAP37o4TvluZ7rcaRoPWoYiYyr4fv9dwZoWjVLQS6Ua3nChPceGMrYLfItH9K9R++/3/2V4f+/sIbxzAZKbd6w+JBdqFG6BeuvP0huao0VohgQn/z7BSRb3nw+UYy/zw8d48N99IdCvPwE9QYMe+QYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=46e1f5ce47fc9b1070beb4b4116d43a1"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8ee1f5ce47fc9b1070beb4b4116d435a^sys_idNOT IN4ee1f5ce47fc9b1070beb4b4116d4395,86e1f5ce47fc9b1070beb4b4116d4393,86e1f5ce47fc9b1070beb4b4116d4397,8ae1f5ce47fc9b1070beb4b4116d4399,c2e1f5ce47fc9b1070beb4b4116d439b"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b1e1f5ce47fc9b1070beb4b4116d4305</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>295ed108-238d-45e1-a2b3-a8e903274789</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>4ee1f5ce47fc9b1070beb4b4116d4395</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <ui_id>815f8434-3e75-4d5e-ada7-a1a139ebaa29</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7de1f5ce47fc9b1070beb4b4116d4300</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>86e1f5ce47fc9b1070beb4b4116d4393</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <ui_id>295ed108-238d-45e1-a2b3-a8e903274789</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPJthJHZa8lZTCoFthLX3ZiriWrxsxWXL1kY+F/Pdd2c4HXcoI6+PerCPde8850sFbZoJvgneP5to5+aLZ7PtzwqSOGH1vmYYa2YwJo0vppdG8BRK2BBXihqwGHgqFA+kGGlcDOqhRxJODEj1I5ehwKV2jYPN0SY1YSFVa7Bk1YGmuR8tm2zdbsqSWVQpVNhWZGI8m41Gajj5dZcVkXGSjcgwIY2qooEBFR+d7KYO7Fkne1eg3TcSdt1K/9Ou7vsvDHjS2jKyyNGG49qhLJD4VKIcJq0GX4I3dHBCLUN5rdQQWUntqR40WqJruq4a1k79o9CjPY0mFJFZgt3lY8t7VDq5uwAORCsIH2x8VCyMFus6mEisIys9Pse7AfRNFdyXtvfTVRoVaf+28YYcG+0skJDgigU3UHEX0iqqHhVl927O8lbr1p99URoA6rMCTi0Xwkc+WocKaGvEamoa85Y01S9kWE5d6+KJoMayUWdHQ+FaH0L6ZIVkMw1vCb1r4CayMKr5QGyruaBbgpODtu6Z2ZBOyXcLcxs0VOHcUSe7y1xApdpJ7cbzzJ5YIKxt/TZOX2OvYJX/G5CQh260LRaQ9tPga0Hnemrzb/QhpOi7XPJtOJlk+5cFLJT1POWWCHzPB383RB3a+LG1TyKs8S/PzabuanEvbmZxdGLHRXyIWb/XihKVp+j9i/xwx6XgXjF5bO/wDE/Yc49TNPHgtpCNqjxH7vP9fxY0NPTMpTqGVsT+jqCO2+w2p90HX+QYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f5e1f5ce47fc9b1070beb4b4116d4308</block>
+        <comment/>
+        <connected_to>295ed108-238d-45e1-a2b3-a8e903274789</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>86e1f5ce47fc9b1070beb4b4116d4397</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <ui_id>ebd8b011-6919-4d97-a26c-e8f4d702a34a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXU/cMBD8K5Gfo1OSK6dybwiEVIkWqSBeWmRtnM2dVccO/gCu0f33rp3cHaKgFpXHvsVj7+7M2KMMzATfB++uzYlzcqXZ8tttzqSOGH0PTEOHbMmE0Y300miegJzdgwpxQ7aZh1phJl3WoUebtRCUz7IGPUjl6GgjXa9gc/P3FWItVWNxYtODhXSQLYdnW7Khhm0BbXksSjGvFvOqKKqPH8p6Ma/LqpkDQkUNFdSo6OjpTkZ2kZD8VX1+00fceSv1alpfTF2udqCxTWRVFjnDR4+6QeLTgnKYsw50A97YzR6xCM2lVgdgLbWndtRojaofvzp4dPInja6OjmJJiyRW4Li5X/LJ0xFuz8ADkQrCBzsdFWsjBbrRpgaTxadPsfHAZR9FjyXpVqZqo0Knv4zesH2D3RUSEhyRwD5qjiImRe3V2jx83bE8lzr5M20qI0DtV+DJxTr4yGdgqLCjRryDvidveW/NvUzFxKWbrRQtZq0yDzQ0vtMZiEh8RhbD7JzwswTfgJVRxWdqQ8UjzRqcFDy9aWpHNiHb5sxt3KkC5w4iyV1+FyLFUfIkjo/+xBJhZe9PaPI9Tjq2+e8ReZKOYXChjrRnFu8COs+Tydvt91AU8+aRl8eLRXl0zIOXSnpe8PTQeXKbvxqh92r7rjkrX8rZCwl7Y7iqP4Qr3uebs1UUxf9w/XO4pONjJCZtafg7Zus2BmmcufdaSEfUriP2afeXihsbemZSPIUejP0RRR2w7S9I6sW17wYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">39e1f5ce47fc9b1070beb4b4116d430b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>ebd8b011-6919-4d97-a26c-e8f4d702a34a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>8ae1f5ce47fc9b1070beb4b4116d4399</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <ui_id>2e731fbf-c396-4d53-a5d3-ff76e6944542</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b1e1f5ce47fc9b1070beb4b4116d430e</block>
+        <comment/>
+        <connected_to>295ed108-238d-45e1-a2b3-a8e903274789</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Aggregation Member">8ee1f5ce47fc9b1070beb4b4116d435a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>c2e1f5ce47fc9b1070beb4b4116d439b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+        <ui_id>9380d689-cff9-4cf6-b7be-d825d2e85996</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnwZDk2qh9CxwEKJA2QBPk0gbEilrZRClR4cOPGv73LkX5gTRBG9TH3sQhd3dmyIF2THvXemcf9JW1ctGw2benhMkmYPS9Yw3UyGZM6KaUTuqGd0DCVqB82JDVwEGhcCDtoNVrNAPqCAsclOhAKktHS2lbBdvHv68QS6lKgz2bFgzNdGjYbPdiS5bUsEqhyqYiE6N8MsrTNP/4ISsmoyLLyxEg5NRQQYGKjs4PMga3HZK8qc9t24BbZ2Sz6Ne3fZf7A6hNGVhlacJw47ApkfhUoCwmrIamBKfN9ogYhPKuUSdgKRtH7ajRElUbv2rYWPmTRufjcSipkMQKjJvHJe89jXB1DQ6IlBfOm/6oWGop0EabSqzAKzc/x+KBuzaIjiXdrfTVWvm6+RK9YccGhyskxFsigW3QHET0iqr7pV5/PbC8kU3nT7+ptAB1XIEjFwvvAp8dQ4U1NeI1tC15y1ujV7IrJi71cKFoMayUXtPQ8E6HIALxIVkMwxvCrzv4EYwMKj5TGyqONAuwUvDuTVM7sgnZPmF2a+cKrD2JJHf5sw8Uo+ReHI/+hBJhZOuuaPIKex375PeInKVjt7O+CLSHBp89Wsc7k/f77z5NR+WGZ9PJJBtPuXdSScdT3iWCx0TwNzN0sb4XTVr2WtJeydg745X/IV7hRt+drjRN/8frn+MlLY+h6LV1wy+YrqcQpTjz6LWQlqg9BOzT4T8VNrb0zKQ4h9ba/AiiTtj+F8fE8+fxBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>aggregations_sys_id</element>
+        <help/>
+        <hint/>
+        <label>Aggregations Sys ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:43:13</sys_created_on>
+        <sys_id>4383fd824730db1070beb4b4116d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_table</element>
+        <help/>
+        <hint/>
+        <label>Request Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>c2e1f5ce47fc9b1070beb4b4116d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_record_sys_id</element>
+        <help/>
+        <hint/>
+        <label>Request Record Sys ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:03</sys_created_on>
+        <sys_id>cee1f5ce47fc9b1070beb4b4116d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:36:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8ee1f5ce47fc9b1070beb4b4116d435a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8d80e94e477c9b1070beb4b4116d4310</sys_id>
+        <latest_snapshot>8ee1f5ce47fc9b1070beb4b4116d435a</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8d80e94e477c9b1070beb4b4116d4310"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8d80e94e477c9b1070beb4b4116d4310^sys_idNOT IN1ae1f5ce47fc9b1070beb4b4116d43be"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@7acecb73</plan>
+        <plan_id display_value="Create Aggregation Member">8d80e94e477c9b1070beb4b4116d4310</plan_id>
+        <snapshot>8ee1f5ce47fc9b1070beb4b4116d435a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-28 05:36:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ae1f5ce47fc9b1070beb4b4116d43be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-28 05:43:14</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
