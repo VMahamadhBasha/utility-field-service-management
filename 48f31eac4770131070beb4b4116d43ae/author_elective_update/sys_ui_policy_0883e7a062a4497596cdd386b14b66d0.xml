@@ -33,7 +33,6 @@
         <file_path/>
         <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
         <instance_name>dev395670</instance_name>
-        <merge_base/>
         <name>sys_ui_policy_0883e7a062a4497596cdd386b14b66d0</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy">
   <sys_ui_policy action="INSERT_OR_UPDATE" apply_defaults="true">

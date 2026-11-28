@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-24 15:09:09</sys_created_on>
+            <sys_id>8fab1a4224b813107f44d792acadb041</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>test1</sys_name>
             <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2026-11-24 15:09:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fab1a4224b813107f44d792acadb042</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-24 15:09:11</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2026-11-24 15:09:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>47ab1a4224b813107f44d792acadb044</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-24 15:09:17</sys_updated_on>

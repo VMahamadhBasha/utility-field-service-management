@@ -58,7 +58,6 @@
         <file_path/>
         <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
         <instance_name>dev395670</instance_name>
-        <merge_base/>
         <name>sys_dictionary_x_1966159_utilit_0_svc_conn_tariff_category</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
   <sys_dictionary action="INSERT_OR_UPDATE" apply_defaults="true" element="tariff_category" table="x_1966159_utilit_0_svc_conn">

@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_1966159_utilit_0_dist_line</name>
+        <name>x_1966159_utilit_0_maintenance_detail</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-11-23 16:50:53</sys_created_on>
-        <sys_id>e26cde6047f0131070beb4b4116d433e</sys_id>
+        <sys_created_on>2026-11-23 17:40:09</sys_created_on>
+        <sys_id>f7ea1eca247813107f44d792acadb045</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1966159_utilit_0_dist_line</sys_name>
+        <sys_name>x_1966159_utilit_0_maintenance_detail</sys_name>
         <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
-        <sys_update_name>ua_table_licensing_config_e26cde6047f0131070beb4b4116d433e</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_f7ea1eca247813107f44d792acadb045</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-23 16:50:53</sys_updated_on>
+        <sys_updated_on>2026-11-23 17:40:09</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

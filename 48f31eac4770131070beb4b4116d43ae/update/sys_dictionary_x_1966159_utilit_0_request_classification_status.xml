@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length/>
+        <max_length>40</max_length>
         <name>x_1966159_utilit_0_request</name>
         <next_element/>
         <primary>false</primary>
@@ -48,6 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-11-23 16:50:56</sys_created_on>
+        <sys_id>83dad2ca247813107f44d792acadb0d0</sys_id>
         <sys_name>Classification Status</sys_name>
         <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
         <sys_policy/>

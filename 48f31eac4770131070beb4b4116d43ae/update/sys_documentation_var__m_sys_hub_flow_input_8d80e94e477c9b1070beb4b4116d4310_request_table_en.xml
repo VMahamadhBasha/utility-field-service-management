@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_table" label="Request Table" language="en" table="var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_table</element>
+            <help/>
+            <hint/>
+            <label>Request Table</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-28 04:26:33</sys_created_on>
+            <sys_id>cc02a50247bc9b1070beb4b4116d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Table</sys_name>
+            <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8d80e94e477c9b1070beb4b4116d4310_request_table_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-28 04:26:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

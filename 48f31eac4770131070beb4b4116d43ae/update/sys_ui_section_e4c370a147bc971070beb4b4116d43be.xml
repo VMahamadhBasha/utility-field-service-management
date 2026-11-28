@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="New Section" section_id="e4c370a147bc971070beb4b4116d43be" sys_domain="global" table="x_1966159_utilit_0_new_connection_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>phase_requirement</element>
+            <element>is_safety_hazard</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:47:33</sys_created_on>
-            <sys_id>68c3b0a147bc971070beb4b4116d4302</sys_id>
+            <sys_created_on>2026-11-26 11:47:34</sys_created_on>
+            <sys_id>e8c3b0a147bc971070beb4b4116d431d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:47:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_load_kw</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:47:33</sys_created_on>
-            <sys_id>24c3b0a147bc971070beb4b4116d4303</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:47:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:47:33</sys_created_on>
-            <sys_id>ecc3b0a147bc971070beb4b4116d4303</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:47:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:47:33</sys_created_on>
-            <sys_id>a8c3b0a147bc971070beb4b4116d4304</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:47:33</sys_updated_on>
+            <sys_updated_on>2026-11-26 11:47:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:47:34</sys_created_on>
-            <sys_id>64c3b0a147bc971070beb4b4116d4305</sys_id>
+            <sys_id>a4c3b0a147bc971070beb4b4116d431e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
@@ -71,39 +29,11 @@
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>area</element>
-            <position>5</position>
+            <element>hazard_details</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:47:34</sys_created_on>
-            <sys_id>20c3b0a147bc971070beb4b4116d4306</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:47:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>installation_address</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:47:34</sys_created_on>
-            <sys_id>e8c3b0a147bc971070beb4b4116d4306</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:47:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>site_details</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:47:34</sys_created_on>
-            <sys_id>a4c3b0a147bc971070beb4b4116d4307</sys_id>
+            <sys_id>60c3b0a147bc971070beb4b4116d431f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_new_connection_details" sys_domain="global" view="Default view">e4c370a147bc971070beb4b4116d43be</sys_ui_section>

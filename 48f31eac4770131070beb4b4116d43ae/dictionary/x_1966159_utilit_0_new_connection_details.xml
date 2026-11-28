@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="efab6061477c971070beb4b4116d43b4" extends="x_1966159_utilit_0_base_request" label="New Connection Details Updated" max_length="40" name="x_1966159_utilit_0_new_connection_details" type="collection">
-        <element label="Transformer" max_length="32" name="transformer" reference="x_1966159_utilit_0_transformer" type="reference"/>
+        <element label="Technical Assessment" max_length="255" name="technical_assessment" type="string_full_utf8"/>
+        <element label="Requested Load (kW)" max_length="20" name="requested_load_kw" type="decimal"/>
+        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
         <element choice="1" label="Phase Requirement" max_length="40" name="phase_requirement" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Three Phase" value="three_phase"/>
                 <element inactive_on_update="false" label="Single Phase" value="single_phase"/>
             </choice>
         </element>
-        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
-        <element label="Technical Assessment" max_length="255" name="technical_assessment" type="string_full_utf8"/>
-        <element label="Installation Address" max_length="255" name="installation_address" type="string_full_utf8"/>
         <element label="Site Details" max_length="255" name="site_details" type="string_full_utf8"/>
-        <element label="Requested Load (kW)" max_length="20" name="requested_load_kw" type="decimal"/>
+        <element label="Transformer" max_length="32" name="transformer" reference="x_1966159_utilit_0_transformer" type="reference"/>
+        <element label="Installation Address" max_length="255" name="installation_address" type="string_full_utf8"/>
         <index name="index">
             <element name="area"/>
         </index>

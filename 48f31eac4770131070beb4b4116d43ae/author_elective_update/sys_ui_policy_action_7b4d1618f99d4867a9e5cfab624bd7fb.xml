@@ -21,7 +21,6 @@
         <file_path/>
         <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
         <instance_name>dev395670</instance_name>
-        <merge_base/>
         <name>sys_ui_policy_action_7b4d1618f99d4867a9e5cfab624bd7fb</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
   <sys_ui_policy_action action="INSERT_OR_UPDATE" apply_defaults="true">

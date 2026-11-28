@@ -21,7 +21,6 @@
         <file_path/>
         <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
         <instance_name>dev395670</instance_name>
-        <merge_base/>
         <name>sys_security_acl_role_f321293047b8531070beb4b4116d43fe</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 07:10:35</sys_created_on><sys_id>f321293047b8531070beb4b4116d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1966159_utilit_0_work_order.x_1966159_utilit_0.work_order_user</sys_name><sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package><sys_policy/><sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope><sys_security_acl display_value="x_1966159_utilit_0_work_order">7321293047b8531070beb4b4116d43f7</sys_security_acl><sys_update_name>sys_security_acl_role_f321293047b8531070beb4b4116d43fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 07:10:35</sys_updated_on><sys_user_role display_value="x_1966159_utilit_0.work_order_user" name="x_1966159_utilit_0.work_order_user">f721293047b8531070beb4b4116d4317</sys_user_role></sys_security_acl_role></record_update>]]></payload>
         <payload_hash>1784923273</payload_hash>
@@ -42,7 +41,7 @@
         <update_guid_history>f321693057b8531012a0ac7d7ac24907:1784923273</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1966159_utilit_0_work_order.x_1966159_utilit_0.work_order_user">0c91297047b8531070beb4b4116d43f7</sys_audit_delete>
+        <sys_audit_delete display_value="">0c91297047b8531070beb4b4116d43f7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-11-24 07:12:15</sys_created_on>

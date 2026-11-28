@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ba66c735473c5b1070beb4b4116d438e" extends="task" label="Aggregation Child Task" max_length="40" name="x_1966159_utilit_0_aggregation_child_task" type="collection">
-        <element label="Power Outage" max_length="32" name="power_outage" reference="x_1966159_utilit_0_power_outage_details" type="reference"/>
-        <element label="Meter Fault Request" max_length="32" name="meter_fault_request" reference="x_1966159_utilit_0_meter_fault_details" type="reference"/>
         <element label="Maintenance" max_length="32" name="maintenance" reference="x_1966159_utilit_0_maintenance_details" type="reference"/>
+        <element label="Power Outage" max_length="32" name="power_outage" reference="x_1966159_utilit_0_power_outage_details" type="reference"/>
         <element label="New Connection Request" max_length="32" name="new_connection_request" reference="x_1966159_utilit_0_new_connection_details" type="reference"/>
+        <element label="Meter Fault Request" max_length="32" name="meter_fault_request" reference="x_1966159_utilit_0_meter_fault_details" type="reference"/>
     </element>
 </database>

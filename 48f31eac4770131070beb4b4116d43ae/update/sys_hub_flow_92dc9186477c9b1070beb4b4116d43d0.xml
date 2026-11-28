@@ -418,7 +418,6 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=92dc9186477c9b1070beb4b4116d43d0"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=92dc9186477c9b1070beb4b4116d43d0"/>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_92dc9186477c9b1070beb4b4116d43d0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -432,11 +431,11 @@
         <sys_created_on>2026-11-28 04:04:13</sys_created_on>
         <sys_id>b4ec1586477c9b1070beb4b4116d43e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_92dc9186477c9b1070beb4b4116d43d0_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-28 04:04:13</sys_updated_on>
         <url/>
@@ -455,11 +454,11 @@
         <sys_created_on>2026-11-28 04:04:13</sys_created_on>
         <sys_id>f4ec1586477c9b1070beb4b4116d43fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_92dc9186477c9b1070beb4b4116d43d0_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-28 04:04:13</sys_updated_on>
         <url/>

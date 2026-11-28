@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f18133320b9247e9b61b39b0941db549" label="Substation" name="x_1966159_utilit_0_substation" type="collection">
-        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Capacity (MVA)" max_length="15" name="capacity_mva" type="decimal"/>
+        <element label="Area" mandatory="true" max_length="32" name="area" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" reference_qual="area_type=city^ORarea_type=village" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
         <element label="Description" max_length="255" name="description" type="string"/>
-        <element default="true" label="Active" name="active" type="boolean"/>
-        <element default="active" label="Status" name="status" type="choice">
+        <element label="Latitude" max_length="15" name="latitude" type="decimal"/>
+        <element label="Incharge" max_length="32" name="incharge" reference="sys_user" type="reference"/>
+        <element label="Voltage (kV)" mandatory="true" max_length="40" name="voltage_kv" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Offline" sequence="3" value="offline"/>
-                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
-                <element inactive_on_update="false" label="Under Maintenance" sequence="2" value="under_maintenance"/>
-            </choice>
-        </element>
-        <element label="Incharge" name="incharge" reference="sys_user" type="reference"/>
-        <element label="Area" mandatory="true" name="area" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" reference_qual="area_type=city^ORarea_type=village" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Commissioned On" name="commissioned_on" type="glide_date"/>
-        <element label="Latitude" name="latitude" type="decimal"/>
-        <element label="Capacity (MVA)" name="capacity_mva" type="decimal"/>
-        <element label="Longitude" name="longitude" type="decimal"/>
-        <element label="Voltage (kV)" mandatory="true" name="voltage_kv" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="66" sequence="2" value="66"/>
                 <element inactive_on_update="false" label="33" sequence="1" value="33"/>
+                <element inactive_on_update="false" label="66" sequence="2" value="66"/>
                 <element inactive_on_update="false" label="132" sequence="3" value="132"/>
             </choice>
         </element>
-        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Commissioned On" max_length="40" name="commissioned_on" type="glide_date"/>
+        <element default="active" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element inactive_on_update="false" label="Under Maintenance" sequence="2" value="under_maintenance"/>
+                <element inactive_on_update="false" label="Offline" sequence="3" value="offline"/>
+            </choice>
+        </element>
+        <element label="Longitude" max_length="15" name="longitude" type="decimal"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="area"/>
         </index>
@@ -33,6 +33,9 @@
         </index>
         <index name="index3">
             <element name="sys_class_name"/>
+        </index>
+        <index name="index4" unique="true">
+            <element name="number"/>
         </index>
     </element>
 </database>

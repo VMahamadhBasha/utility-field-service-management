@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="New Section" section_id="6494f8e147bc971070beb4b4116d43b7" sys_domain="global" table="x_1966159_utilit_0_meter_fault_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
+            <element>requested_by</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>7c94f8e147bc971070beb4b4116d43e0</sys_id>
+            <sys_id>6894f8e147bc971070beb4b4116d43d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
@@ -15,11 +15,11 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>service_connection</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>3894f8e147bc971070beb4b4116d43e1</sys_id>
+            <sys_id>6494f8e147bc971070beb4b4116d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
@@ -33,7 +33,7 @@
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>f094f8e147bc971070beb4b4116d43e2</sys_id>
+            <sys_id>2094f8e147bc971070beb4b4116d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
@@ -43,11 +43,11 @@
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>meter_display_details</element>
+            <element>request_type</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>bc94f8e147bc971070beb4b4116d43e2</sys_id>
+            <sys_id>e894f8e147bc971070beb4b4116d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
@@ -57,39 +57,11 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>meter_error_code</element>
+            <element>request_subtype</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>7894f8e147bc971070beb4b4116d43e3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:51:07</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>last_working_date</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>3494f8e147bc971070beb4b4116d43e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-26 11:51:07</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>observed_meter_reading</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-26 11:51:07</sys_created_on>
-            <sys_id>fc94f8e147bc971070beb4b4116d43e4</sys_id>
+            <sys_id>a494f8e147bc971070beb4b4116d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_1966159_utilit_0_meter_fault_details" sys_domain="global" view="Default view">6494f8e147bc971070beb4b4116d43b7</sys_ui_section>

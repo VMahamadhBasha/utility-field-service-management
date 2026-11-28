@@ -2,9 +2,7 @@
     <sys_index action="INSERT_OR_UPDATE">
         <access_method/>
         <col_name_string>substation,name</col_name_string>
-        <index_col_name>1fe1352a29cd44c691eb2f4aa4ee0baa,787bbf8c1f234aa8aeaad38d5b02bfcf<sys_dictionary element="substation" name="x_1966159_utilit_0_feeder">1fe1352a29cd44c691eb2f4aa4ee0baa</sys_dictionary>
-            <sys_dictionary element="name" name="x_1966159_utilit_0_feeder">787bbf8c1f234aa8aeaad38d5b02bfcf</sys_dictionary>
-        </index_col_name>
+        <index_col_name>02da92ca247813107f44d792acadb03d,0eda92ca247813107f44d792acadb044</index_col_name>
         <logical_table_name>x_1966159_utilit_0_feeder</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>admin</sys_created_by>

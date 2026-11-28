@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Fsnoc">25b8566847b0131070beb4b4116d43d1</application>
+        <application display_value="">25b8566847b0131070beb4b4116d43d1</application>
         <assessment/>
         <device_type/>
         <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <karuna_route/>
         <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Aggregation Members</mobile_title>

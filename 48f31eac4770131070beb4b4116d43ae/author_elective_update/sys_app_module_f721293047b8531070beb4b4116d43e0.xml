@@ -50,7 +50,6 @@
         <file_path/>
         <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
         <instance_name>dev395670</instance_name>
-        <merge_base/>
         <name>sys_app_module_f721293047b8531070beb4b4116d43e0</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Fsnoc">25b8566847b0131070beb4b4116d43d1</application><assessment/><device_type/><filter/><hint/><homepage/><image/><karuna_route/><link_type>LIST</link_type><map_page/><mobile_title>Work Orders</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1966159_utilit_0_work_order</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1966159_utilit_0.work_order_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 07:10:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f721293047b8531070beb4b4116d43e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Work Orders</sys_name><sys_overrides/><sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package><sys_policy/><sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope><sys_update_name>sys_app_module_f721293047b8531070beb4b4116d43e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 07:10:35</sys_updated_on><timeline_page/><title>Work Orders</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
         <payload_hash>417978603</payload_hash>
@@ -71,7 +70,7 @@
         <update_guid_history>7b21293016b853105b122d5cc2294be3:417978603</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Work Orders">9c91697047b8531070beb4b4116d4343</sys_audit_delete>
+        <sys_audit_delete display_value="">9c91697047b8531070beb4b4116d4343</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-11-24 07:12:15</sys_created_on>

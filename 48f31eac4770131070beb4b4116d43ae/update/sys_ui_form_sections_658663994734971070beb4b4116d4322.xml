@@ -70,6 +70,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-11-26 06:22:54</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-28 08:37:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee8b1a0224b813107f44d792acadb0d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1966159_utilit_0_request" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">658663994734971070beb4b4116d4322</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1966159_utilit_0_request" sys_domain="global" view="e49fdef44770931070beb4b4116d43f5">b09f12384770931070beb4b4116d43f9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-28 08:37:57</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1966159_utilit_0_request</name>
             <roles/>

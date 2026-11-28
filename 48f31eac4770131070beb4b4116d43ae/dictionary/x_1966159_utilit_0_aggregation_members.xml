@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e0b4c731473c5b1070beb4b4116d43c5" label="Aggregation Members  Updated" max_length="40" name="x_1966159_utilit_0_aggregation_members" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Meter Fault Request" max_length="32" name="meter_fault_request" reference="x_1966159_utilit_0_meter_fault_details" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Power Outage Request" max_length="32" name="power_outage_request" reference="x_1966159_utilit_0_power_outage_details" type="reference"/>
-        <element label="Maintenance Request" max_length="32" name="maintenance_request" reference="x_1966159_utilit_0_maintenance_details" type="reference"/>
-        <element label="Aggregation" max_length="32" name="aggregation" reference="x_1966159_utilit_0_aggregations" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="New Connection Request" max_length="32" name="new_connection_request" reference="x_1966159_utilit_0_new_connection_details" type="reference"/>
+        <element label="Aggregation" max_length="32" name="aggregation" reference="x_1966159_utilit_0_aggregations" type="reference"/>
+        <element label="Maintenance Request" max_length="32" name="maintenance_request" reference="x_1966159_utilit_0_maintenance_details" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="aggregation"/>
         </index>

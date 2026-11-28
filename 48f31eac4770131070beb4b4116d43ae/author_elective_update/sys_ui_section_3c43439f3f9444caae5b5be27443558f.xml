@@ -74,7 +74,6 @@
         <file_path/>
         <instance_id>3d0c24963b6c0f5c986d048aa4e45ace</instance_id>
         <instance_name>dev395670</instance_name>
-        <merge_base/>
         <name>sys_ui_section_3c43439f3f9444caae5b5be27443558f</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
   <sys_ui_section caption="Dispatch" section_id="3c43439f3f9444caae5b5be27443558f" sys_domain="global" table="x_1966159_utilit_0_request" view="">

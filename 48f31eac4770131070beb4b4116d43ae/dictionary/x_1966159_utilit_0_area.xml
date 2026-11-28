@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="36440011274144859f94f22cd7489bf1" label="Area" name="x_1966159_utilit_0_area" type="collection">
-        <element label="Latitude" name="latitude" type="decimal"/>
-        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
-        <element label="Longitude" name="longitude" type="decimal"/>
-        <element label="Full Path" max_length="255" name="full_path" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" type="reference"/>
+        <element label="Latitude" max_length="15" name="latitude" type="decimal"/>
         <element label="Pincode" max_length="6" name="pincode" type="string"/>
-        <element label="Parent" name="parent" reference="x_1966159_utilit_0_area" reference_cascade_rule="restrict" type="reference"/>
-        <element default="true" label="Active" name="active" type="boolean"/>
-        <element label="Area Type" mandatory="true" name="area_type" type="choice">
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element label="Area Type" mandatory="true" max_length="40" name="area_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Village" sequence="2" value="village"/>
                 <element inactive_on_update="false" label="City" sequence="1" value="city"/>
+                <element inactive_on_update="false" label="Village" sequence="2" value="village"/>
                 <element inactive_on_update="false" label="Street" sequence="3" value="street"/>
             </choice>
         </element>
+        <element label="Full Path" max_length="255" name="full_path" read_only="true" read_only_option="instance_configured" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
-        <element label="Description" max_length="255" name="description" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Longitude" max_length="15" name="longitude" type="decimal"/>
         <index name="index">
             <element name="parent"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="number"/>
         </index>
     </element>
 </database>

@@ -53,11 +53,12 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-11-23 17:32:47</sys_created_on>
+        <sys_id>55da12ca247813107f44d792acadb0e9</sys_id>
         <sys_name>x_1966159_utilit_0_meter_fault_detail</sys_name>
         <sys_package display_value="Utility Field Service Management" source="x_1966159_utilit_0">48f31eac4770131070beb4b4116d43ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Utility Field Service Management">48f31eac4770131070beb4b4116d43ae</sys_scope>
-        <sys_update_name>sys_dictionary_x_1966159_utilit_0_meter_fault_detail_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1966159_utilit_0_meter_fault_detail_NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-23 17:32:47</sys_updated_on>
         <table_reference>false</table_reference>

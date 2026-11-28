@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="5fb666e44734131070beb4b4116d4353" label="New Connection Detail" max_length="40" name="x_1966159_utilit_0_new_connection_detail" type="collection">
-        <element label="Site Details" max_length="255" name="site_details" type="string_full_utf8"/>
         <element choice="1" label="Phase Requirement" max_length="40" name="phase_requirement" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Three Phase" value="three_phase"/>
                 <element inactive_on_update="false" label="Single Phase" value="single_phase"/>
-            </choice>
-        </element>
-        <element label="Installation Address" max_length="255" name="installation_address" type="string_full_utf8"/>
-        <element label="Requested Connection Date" max_length="40" name="requested_connection_date" type="glide_date"/>
-        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Req Subtype" max_length="40" name="req_subtype" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Agricultural Connection" value="agricultural_connection"/>
-                <element inactive_on_update="false" label="Domestic Connection" value="domestic_connection"/>
-                <element inactive_on_update="false" label="Industrial Connection" value="industrial_connection"/>
-                <element inactive_on_update="false" label="Commercial Connection" value="commercial_connection"/>
-                <element inactive_on_update="false" label="Other" value="other_new_connection"/>
+                <element inactive_on_update="false" label="Three Phase" value="three_phase"/>
             </choice>
         </element>
         <element label="Requested Load (kW)" max_length="20" name="requested_load_kw" type="decimal"/>
-        <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Site Details" max_length="255" name="site_details" type="string_full_utf8"/>
+        <element choice="1" label="Req Subtype" max_length="40" name="req_subtype" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Commercial Connection" value="commercial_connection"/>
+                <element inactive_on_update="false" label="Domestic Connection" value="domestic_connection"/>
+                <element inactive_on_update="false" label="Industrial Connection" value="industrial_connection"/>
+                <element inactive_on_update="false" label="Other" value="other_new_connection"/>
+                <element inactive_on_update="false" label="Agricultural Connection" value="agricultural_connection"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Requested Connection Date" max_length="40" name="requested_connection_date" type="glide_date"/>
         <element label="Service Connection" max_length="32" name="service_connection" reference="x_1966159_utilit_0_svc_conn" type="reference"/>
+        <element label="Installation Address" max_length="255" name="installation_address" type="string_full_utf8"/>
+        <element label="Request" max_length="32" name="request" reference="x_1966159_utilit_0_request" type="reference"/>
         <index name="index">
             <element name="request"/>
         </index>

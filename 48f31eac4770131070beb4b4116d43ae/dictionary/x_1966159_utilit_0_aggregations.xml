@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="a98af27d47b85b1070beb4b4116d43e5" extends="task" label="Aggregations Updated" max_length="40" name="x_1966159_utilit_0_aggregations" type="collection">
-        <element default="0" label="Total Requests" max_length="40" name="total_requests" type="integer"/>
+        <element label="AI Last Analyzed" max_length="40" name="ai_last_analyzed" type="glide_date_time"/>
         <element label="Transformer" max_length="32" name="transformer" reference="x_1966159_utilit_0_transformer" type="reference"/>
         <element label="Feeder" max_length="32" name="feeder" reference="x_1966159_utilit_0_feeder" type="reference"/>
-        <element choice="1" choice_field="request_subtype" choice_table="x_1966159_utilit_0_base_request" label="Aggregation Request Subtype" max_length="40" name="aggregation_request_subtype" type="choice">
-            <choice/>
-        </element>
-        <element label="SLA Delay Reason" max_length="255" name="sla_delay_reason" type="string_full_utf8"/>
-        <element choice="1" choice_field="request_type" choice_table="x_1966159_utilit_0_base_request" label="Aggregation Type" max_length="40" name="aggregation_type" type="choice">
-            <choice/>
-        </element>
         <element choice="1" choice_table="x_1966159_utilit_0_base_request" label="AI Analysis Status" max_length="40" name="ai_analysis_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Not Started" value="not_started"/>
                 <element inactive_on_update="false" label="In Progress" value="in_progress"/>
+                <element inactive_on_update="false" label="Not Started" value="not_started"/>
                 <element inactive_on_update="false" label="Completed" value="completed"/>
             </choice>
         </element>
-        <element label="AI Recommended Action" max_length="255" name="ai_recommended_action" type="string_full_utf8"/>
+        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
         <element label="SLA Breached" max_length="40" name="sla_breached" type="boolean"/>
-        <element label="AI Last Analyzed" max_length="40" name="ai_last_analyzed" type="glide_date_time"/>
+        <element label="SLA Delay Reason" max_length="255" name="sla_delay_reason" type="string_full_utf8"/>
+        <element choice="1" choice_field="request_subtype" choice_table="x_1966159_utilit_0_base_request" label="Aggregation Request Subtype" max_length="40" name="aggregation_request_subtype" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="request_type" choice_table="x_1966159_utilit_0_base_request" label="Aggregation Type" max_length="40" name="aggregation_type" type="choice">
+            <choice/>
+        </element>
+        <element default="0" label="Total Requests" max_length="40" name="total_requests" type="integer"/>
         <element default="False" label="Membership Frozen" max_length="40" name="membership_frozen" type="boolean"/>
         <element label="Substation" max_length="32" name="substation" reference="x_1966159_utilit_0_substation" type="reference"/>
-        <element label="Area" max_length="32" name="area" reference="x_1966159_utilit_0_area" type="reference"/>
+        <element label="AI Recommended Action" max_length="255" name="ai_recommended_action" type="string_full_utf8"/>
     </element>
 </database>

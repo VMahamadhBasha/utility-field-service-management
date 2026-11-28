@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e02d0ee8a59a46ceab115d681ead6667" label="Distribution Line" name="x_1966159_utilit_0_dist_line" type="collection">
-        <element label="Length (km)" name="length_km" type="decimal"/>
-        <element label="Serves Critical Facility" name="serves_critical_facility" type="boolean"/>
-        <element label="Start Area" mandatory="true" name="start_area" reference="x_1966159_utilit_0_area" reference_qual="area_type=village^ORarea_type=street" type="reference"/>
-        <element label="End Area" mandatory="true" name="end_area" reference="x_1966159_utilit_0_area" reference_qual="area_type=village^ORarea_type=street" type="reference"/>
-        <element default="active" label="Status" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Offline" sequence="4" value="offline"/>
-                <element inactive_on_update="false" label="Under Repair" sequence="3" value="under_repair"/>
-                <element inactive_on_update="false" label="Faulty" sequence="2" value="faulty"/>
-                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
-            </choice>
-        </element>
-        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
         <element label="Description" max_length="255" name="description" type="string"/>
-        <element label="To Location" max_length="200" name="to_location" type="string"/>
-        <element label="Installation Date" name="installation_date" type="glide_date"/>
-        <element default="true" label="Active" name="active" type="boolean"/>
-        <element label="From Location" max_length="200" name="from_location" type="string"/>
-        <element label="Voltage (kV)" name="voltage_kv" type="choice">
+        <element label="Voltage (kV)" max_length="40" name="voltage_kv" type="choice">
             <choice>
                 <element inactive_on_update="false" label="11" sequence="1" value="11"/>
                 <element inactive_on_update="false" label="33" sequence="2" value="33"/>
             </choice>
         </element>
-        <element label="Line Type" name="line_type" type="choice">
+        <element label="Critical Facility Note" max_length="200" name="critical_facility_note" type="string"/>
+        <element label="Serves Critical Facility" max_length="40" name="serves_critical_facility" type="boolean"/>
+        <element label="Last Inspection Date" max_length="40" name="last_inspection_date" type="glide_date"/>
+        <element label="Length (km)" max_length="15" name="length_km" type="decimal"/>
+        <element label="To Location" max_length="200" name="to_location" type="string"/>
+        <element label="Line Type" max_length="40" name="line_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Overhead" sequence="1" value="overhead"/>
                 <element inactive_on_update="false" label="Underground" sequence="2" value="underground"/>
             </choice>
         </element>
-        <element label="Feeder" mandatory="true" name="feeder" reference="x_1966159_utilit_0_feeder" reference_cascade_rule="restrict" reference_qual="active=true" type="reference"/>
-        <element label="Conductor Type" max_length="100" name="conductor_type" type="string"/>
-        <element label="Critical Facility Note" max_length="200" name="critical_facility_note" type="string"/>
-        <element label="Last Inspection Date" name="last_inspection_date" type="glide_date"/>
-        <element label="Phase Type" name="phase_type" type="choice">
+        <element label="Installation Date" max_length="40" name="installation_date" type="glide_date"/>
+        <element label="Feeder" mandatory="true" max_length="32" name="feeder" reference="x_1966159_utilit_0_feeder" reference_cascade_rule="restrict" reference_qual="active=true" type="reference"/>
+        <element label="Start Area" mandatory="true" max_length="32" name="start_area" reference="x_1966159_utilit_0_area" reference_qual="area_type=village^ORarea_type=street" type="reference"/>
+        <element label="Phase Type" max_length="40" name="phase_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Single Phase" sequence="1" value="single_phase"/>
                 <element inactive_on_update="false" label="Three Phase" sequence="2" value="three_phase"/>
             </choice>
         </element>
+        <element default="active" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element inactive_on_update="false" label="Faulty" sequence="2" value="faulty"/>
+                <element inactive_on_update="false" label="Under Repair" sequence="3" value="under_repair"/>
+                <element inactive_on_update="false" label="Offline" sequence="4" value="offline"/>
+            </choice>
+        </element>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string" unique="true"/>
+        <element label="From Location" max_length="200" name="from_location" type="string"/>
+        <element label="Conductor Type" max_length="100" name="conductor_type" type="string"/>
+        <element label="End Area" mandatory="true" max_length="32" name="end_area" reference="x_1966159_utilit_0_area" reference_qual="area_type=village^ORarea_type=street" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <index name="index">
             <element name="end_area"/>
@@ -49,6 +49,9 @@
         </index>
         <index name="index3">
             <element name="start_area"/>
+        </index>
+        <index name="index4" unique="true">
+            <element name="number"/>
         </index>
     </element>
 </database>
