@@ -20,9 +20,13 @@
             </choice>
         </element>
         <element label="Affected Premises Details" max_length="255" name="affected_premises_details" type="string_full_utf8"/>
+        <element label="Aggregation" max_length="32" name="aggregation" reference="x_1966159_utilit_0_aggregations" type="reference"/>
         <element label="Outage Start Time" max_length="40" name="outage_start_time" type="glide_date_time"/>
         <element label="Observed Voltage" max_length="20" name="observed_voltage" type="decimal"/>
         <index name="index">
+            <element name="aggregation"/>
+        </index>
+        <index name="index2">
             <element name="substation"/>
         </index>
     </element>
